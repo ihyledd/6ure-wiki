@@ -6,7 +6,7 @@ hero:
   name: "6ure"
 #  text: "The largest leaking community on Discord for editors!"
   image:
-    src: https://i.postimg.cc/gjrkHjGd/52-CC873-D-3-B21-4030-860-C-9309-A0-BCDD80.png
+    src: https://images-ext-1.discordapp.net/external/NoFlUln0T23MT8m7pgbiP6_Ys6PqmSWbzfioro9mtmU/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1118862694980788276/27f3921db1ab7d2900ffab1ed83ca16a.png
     alt: 6ure Icon
   tagline: The largest leaking community on Discord for editors!
   actions:
