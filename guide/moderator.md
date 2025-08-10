@@ -202,7 +202,7 @@ If you claimed a ticket, please warn the member and close the ticket if no respo
 
 When a user opens a ticket to claim their custom role, please do the following:
 1. **Verify Booster Status**: First, confirm that the member has boosted the server at least **twice** (`2x`). This is a strict requirement.
-2. **Whitelist the Member**: Use the new command to grant them access to the role creation panel. (`/boosterrole manage`)
+2. **Whitelist the Member**: Use the new command to grant them access to the role creation panel. (`/boosterrole whitelist`)
 
 **Command:**
 Using this command on a valid 2x booster will allow them to use `/boosterrole manage`. Please familiarize yourselves with this new procedure.
