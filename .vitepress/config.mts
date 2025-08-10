@@ -19,10 +19,10 @@ export default defineConfig({
     siteTitle: '6ure',
     logo: 'https://cdn.discordapp.com/icons/1118862694980788276/27f3921db1ab7d2900ffab1ed83ca16a.png?size=1024',
     lastUpdated: {
-      text: 'Updated at',
+      text: 'Last updated',
       formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
+        dateStyle: 'short',
+        timeStyle: 'short'
     }
   }, 
     nav: [
