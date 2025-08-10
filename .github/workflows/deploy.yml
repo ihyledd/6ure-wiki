@@ -26,6 +26,10 @@ jobs:
       - name: Build
         run: npm run docs:build
 
+          # --- ADD THIS NEW STEP ---
+      - name: List files in the repository
+        run: ls -R
+
       # Deploy the built site to the gh-pages branch
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v4
