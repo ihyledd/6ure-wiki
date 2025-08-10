@@ -16,13 +16,13 @@ hero:
       link: /guide/faq
 
 features:
-  - title: Moderator Guide
+  - title: Moderator Guide !
     details: This guide covers the essential information and responsibilities you need to know as a moderator.
     link: /guide/moderator
-  - title: Community Support Guide
+  - title: Community Support Guide !
     details: This guide covers everything you need to know to provide helpful, accurate, and friendly support to members.
     link: /guide/community-support
-  - title: Partner Manager Guide
+  - title: Partner Manager Guide !
     details: This guide covers everything you need to know to assist with partner requests and manage partnership tickets.
     link: /guide/partner-manager
 ---
