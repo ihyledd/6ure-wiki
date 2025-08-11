@@ -6,12 +6,13 @@ lastUpdated: true
 search: true
 ---
 # Extras
-
-## Important
+::: tip
+Use **Ctrl+F** / **⌘+F** to easily navigate the page.  
+:::
 ::: warning Important
 Please read the text below before proceeding
 :::
-
+---
 ### Note
 
 You’ve probably heard of “free” Adobe software — it’s very common in the editing community. Below, you’ll see what we call the **main source link**.  
