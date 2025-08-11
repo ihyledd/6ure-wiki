@@ -3,6 +3,7 @@ title: Frequently Asked Questions
 lang: en-GB
 outline: deep
 lastUpdated: true
+search: false
 ---
 # Frequently Asked Questions {#faq}
 
