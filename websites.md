@@ -12,11 +12,12 @@ search: true
 
 ### Discord Server
 ✦ [6ure™](https://discord.gg/6ure) — Offers plethora of free presets for editors to use (Our server)  
-✦ [Satvrn](https://discord.gg/pc6j7Qy4PU) — Trusted softwares, plugins & plethora of other resources (Highly recommended)  
+✦ [Saturn ✦](https://discord.gg/pc6j7Qy4PU) — Trusted softwares, plugins & plethora of other resources (Highly recommended)  
 [PC Help Hub](https://discord.gg/pchh) — Large tech community for PC/laptop advice, builds, repairs, and malware removal
+[Helix™](https://discord.gg/helixtemp) — Offers variety of free presets
 
 ### Scenepacks
-[411 - scenepacks.com](https://discord.gg/411) — Discord  
+[Visual.™](https://discord.gg/zPkv9Hcfgb) — Discord  
 [Fragmentpacks](https://discord.gg/fragmentpacks) — Discord  
 [@megaawrld_](https://www.instagram.com/megaawrld_/) — Instagram (Telegram Required)  
 [@sirenscenes](https://www.instagram.com/sirenscenes/) — Instagram  
