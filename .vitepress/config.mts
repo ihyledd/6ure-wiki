@@ -32,7 +32,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Resources',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Windows', link: '/resources/windows' },
           { text: 'MacOs', link: '/resources/macos' },
@@ -41,14 +41,14 @@ export default defineConfig({
       },
       {
         text: 'Frequently Asked Questions',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Windows', link: '/faq/general' },
         ]
       },
       {
         text: 'Guide',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Beginners Guide', link: '/guides' },
         ]
