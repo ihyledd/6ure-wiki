@@ -2,6 +2,7 @@
 title: Partner Manager Guide
 lang: en-GB
 lastUpdated: true
+search: false
 ---
 # Partner Manager Guide {#pm-guide}
 
