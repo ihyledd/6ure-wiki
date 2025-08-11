@@ -1,6 +1,6 @@
 ---
 title: Community Support Guide
-lang: en-GB
+lang: en-US
 outline: deep
 lastUpdated: true
 search: false
