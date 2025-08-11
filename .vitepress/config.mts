@@ -36,7 +36,7 @@ export default defineConfig({
         items: [
           { text: 'Windows', link: '/resources/windows' },
           { text: 'MacOs', link: '/resources/macos' },
-          { text: 'Partner Manager Guide', link: '/guide/partner-manager' },
+          { text: 'Extras', link: '/resources/extras' },
         ]
       },
       {
@@ -50,7 +50,7 @@ export default defineConfig({
         text: 'Guide',
         collapsed: false,
         items: [
-          { text: 'Beginners Guide', link: '/guides' },
+          { text: 'Beginners Guide', link: '/beginners' },
         ]
       }
     ],
