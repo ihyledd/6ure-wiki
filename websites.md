@@ -31,6 +31,10 @@ search: true
 [filmsbytati](https://www.youtube.com/@filmsbytati) — Editing tutorials & beginners  
 [lofix](https://www.youtube.com/@lofix18) — Editing tutorials & beginners  
 [klqvsluv](https://www.youtube.com/@klqvsluv) — Editing tutorials  
+[jayd3nfx](https://www.youtube.com/@jayd3nfx) — Editing tutorials  
+[hoboedits0](https://www.youtube.com/@hoboedits0) — Editing tutorials  
+[naevis](https://www.youtube.com/@naevis) — Editing tutorials  
+[FoxenDead](https://www.youtube.com/@FoxenDead) — Editing tutorials  
 [lvjnsl](https://www.youtube.com/@lvjnsl) — Carrd Tutorials  
 
 ### Audio and Sound effects
@@ -53,7 +57,9 @@ search: true
 
 https://fmhy.net/ — Offers a wide range of free tools, including ad blockers, torrenting, streaming services, & etc  
 https://streamable.com/ — Easily share videos, ideal for sharing edits on Discord  
-https://vocalremover.org/ Easily split the vocal and instrumental from an audio  
+https://vocalremover.org/ — Easily split the vocal and instrumental from an audio  
+https://ssstik.io/ — Download TikTok video without watermark
+https://www.ghostery.com/ — AdBlock
 
 ## Guides
 
