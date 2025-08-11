@@ -13,7 +13,7 @@ hero:
     - theme: brand
   # alt / brand theme
       text: See Beginners Guide
-      link: /guide/faq
+      link: /beginners
 
 features:
   - title: Moderator Guide !
