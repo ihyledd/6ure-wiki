@@ -43,7 +43,7 @@ export default defineConfig({
         text: 'Frequently Asked Questions',
         collapsed: false,
         items: [
-          { text: 'Windows', link: '/faq/general' },
+          { text: 'General Questions', link: '/faq/general' },
         ]
       },
       {
