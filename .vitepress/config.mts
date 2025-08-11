@@ -38,14 +38,14 @@ export default defineConfig({
           { text: 'MacOs', link: '/resources/macos' },
           { text: 'Partner Manager Guide', link: '/guide/partner-manager' },
         ]
-      }
+      },
       {
         text: 'Frequently Asked Questions',
         collapsed: true,
         items: [
           { text: 'Windows', link: '/faq/general' },
         ]
-      }
+      },
       {
         text: 'Guide',
         collapsed: true,
