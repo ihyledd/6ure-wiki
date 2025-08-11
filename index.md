@@ -24,7 +24,7 @@ features:
     link: /beginners
   - title: Resources
     details: Software & Plugins
-    link: /resources
+    link: /resource
   - title: Helpful Websites
     details: All-in-one editor resources - containing discord servers, scenepacks, audios, fonts & more
     link: /websites
