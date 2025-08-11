@@ -9,4 +9,4 @@ search: true
 
 ## [Windows](/resources/windows)
 ## [MacOs](/resources/macos)
-## [Extras](/resources/Extras)
+## [Extras](/resources/extras)
