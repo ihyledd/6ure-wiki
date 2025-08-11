@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
   # alt / brand theme
-      text: Frequently Asked Questions
+      text: See Beginners Guide
       link: /guide/faq
 
 features:
