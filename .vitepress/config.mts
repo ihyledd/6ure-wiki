@@ -8,7 +8,8 @@ export default defineConfig({
   description: "The largest leaking community on Discord for editors!",
   titleTemplate: ':title • 6ure',
   cleanUrls: true,
-  lang: 'en-GB',
+  lang: 'en-US',
+  appearance: 'dark',
 
   head: [
     ['link', { rel: 'icon', href: 'https://cdn.discordapp.com/icons/1118862694980788276/27f3921db1ab7d2900ffab1ed83ca16a.png?size=1024' }]
