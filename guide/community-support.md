@@ -3,6 +3,7 @@ title: Community Support Guide
 lang: en-GB
 outline: deep
 lastUpdated: true
+search: false
 ---
 # Community Support's Guide {#cs-guide}
 
