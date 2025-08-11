@@ -35,12 +35,10 @@ This is the main source for “free” Adobe software — use it if you know wha
 
 - [Adobe Community](https://lemmy.dbzer0.com/c/GenP) This only works for Windows 10 and 11, as stated in their “wiki” on the mentioned site. The source for Mac is also provided in the same section.
 
+## Softwares
 ::: info
 These links provide extra editing and software resources for both Windows and Mac. Please be patient as we continue to update them regularly.
 :::
-
-## Softwares
-
 ### Adobe
 
 [Adobe Photoshop 2020](https://drive.google.com/file/d/1jsySlrNRn0G8cCT6KS0E-zXYWKa-vktw/view?usp=share_link)
