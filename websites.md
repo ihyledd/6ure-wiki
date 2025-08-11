@@ -37,6 +37,7 @@ search: true
 [hoboedits0](https://www.youtube.com/@hoboedits0) — Editing tutorials  
 [naevis](https://www.youtube.com/@naevis) — Editing tutorials  
 [FoxenDead](https://www.youtube.com/@FoxenDead) — Editing tutorials  
+[Hoboedits2](https://www.youtube.com/@Hoboedits2)
 [lvjnsl](https://www.youtube.com/@lvjnsl) — Carrd Tutorials  
 
 ### Audio and Sound effects
@@ -60,6 +61,7 @@ search: true
 https://fmhy.net/ — Offers a wide range of free tools, including ad blockers, torrenting, streaming services, & etc  
 https://streamable.com/ — Easily share videos, ideal for sharing edits on Discord  
 https://vocalremover.org/ — Easily split the vocal and instrumental from an audio  
+https://ultimatevocalremover.com/ — Vocal Remover  
 https://ssstik.io/ — Download TikTok video without watermark
 https://www.ghostery.com/ — AdBlock
 
