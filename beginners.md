@@ -22,8 +22,8 @@ The step to download presets is not that complicated to understand, but having a
 - You'll see an ephemeral message with the download link, click `DOWNLOAD` & you'll be redirect to the download page
 ![Alt text](assets/Screenshot%202025-08-11%20123608.png)
 - On the download page, you'll require a password in order to download it, enter the password and click sign in. (Read [Steps to get Password](./#Password) If you don't have one)
-![Alt text](assets/Screenshot%202025-08-11%20124339.png)
+![Alt text](assets/Screenshot%202025-08-11%20124339.png){width=250px height=100px}
 - Done! Your download is ready to go
-![Alt text](assets/Screenshot%202025-08-11%20124633.png)
+![Alt text](assets/Screenshot%202025-08-11%20124633.png){width=250px height=100px}
 
 ## Steps to get Password {#Password}
