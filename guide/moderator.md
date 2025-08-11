@@ -3,6 +3,7 @@ title: Moderator Guide
 lang: en-GB
 outline: deep
 lastUpdated: true
+search: false
 ---
 # Moderator's Guide {moderator}
 
