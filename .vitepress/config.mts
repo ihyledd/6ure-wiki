@@ -31,12 +31,26 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Guides',
+        text: 'Resources',
         collapsed: true,
         items: [
-          { text: 'Moderator Guide', link: '/guide/moderator' },
-          { text: 'Community Support Guide', link: '/guide/community-support' },
+          { text: 'Windows', link: '/resources/windows' },
+          { text: 'MacOs', link: '/resources/macos' },
           { text: 'Partner Manager Guide', link: '/guide/partner-manager' },
+        ]
+      }
+      {
+        text: 'Frequently Asked Questions',
+        collapsed: true,
+        items: [
+          { text: 'Windows', link: '/faq/general' },
+        ]
+      }
+      {
+        text: 'Guide',
+        collapsed: true,
+        items: [
+          { text: 'Beginners Guide', link: '/guides' },
         ]
       }
     ],
