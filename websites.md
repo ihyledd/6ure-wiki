@@ -5,10 +5,12 @@ outline: deep
 lastUpdated: true
 search: true
 ---
-# Helpful Websites
+# **Helpful Websites**
 ***Go-To Sites for Editors !***
 
-## Discord Server
+## For Editors
+
+### Discord Server
 ✦ [6ure™](https://discord.gg/6ure) — Offers plethora of free presets for editors to use (Our server)  
 ✦ [Satvrn](https://discord.gg/pc6j7Qy4PU) — Trusted softwares, plugins & plethora of other resources (Highly recommended)  
 
@@ -21,13 +23,7 @@ search: true
 [@multimoots](https://www.instagram.com/multimoots/) — Instagram  
 [@logolessfiles](https://www.instagram.com/logolessfiles/) — Instagram  
 
-## Guides
-
-https://fmhy.net/adblockvpnguide — Adblocker  
-https://rentry.co/m0nkrus — m0nkrus guide  
-https://fmhy.net/beginners-guide#torrenting — How to torrent safely  
-
-## YouTubers for tutorials & beginners
+### YouTubers for tutorials & beginners
 
 ✦ [mutuals](https://www.youtube.com/@marvelmutuals) — Editing tutorials & beginners  
 ✦ [editedbybella](https://www.youtube.com/@editedbybella) — Editing tutorials  
@@ -37,7 +33,7 @@ https://fmhy.net/beginners-guide#torrenting — How to torrent safely
 [klqvsluv](https://www.youtube.com/@klqvsluv) — Editing tutorials  
 [lvjnsl](https://www.youtube.com/@lvjnsl) — Carrd Tutorials  
 
-## Audio and Sound effects
+### Audio and Sound effects
 
 [Mega Link of Edit audios](https://mega.nz/folder/5Tlk0ZaT#eb1S_oCZYxyzk6Np-TFPkg) — This contains over 500+ audios  
 [@fireflyeaudios](https://www.tiktok.com/@fireflyeaudios) — Edit audios  
@@ -52,6 +48,12 @@ https://fmhy.net/beginners-guide#torrenting — How to torrent safely
 [Sound effects:SFX 1](https://freesound.org/)  
 [Sound effects:SFX 2](https://pixabay.com/sound-effects/)  
 [Sound effects:SFX 3](https://mixkit.co/free-sound-effects/)  
+
+## Guides
+
+https://fmhy.net/adblockvpnguide — Adblocker  
+https://rentry.co/m0nkrus — m0nkrus guide  
+https://fmhy.net/beginners-guide#torrenting — How to torrent safely  
 
 ## Fonts
 
@@ -72,10 +74,10 @@ https://fmhy.net/beginners-guide#torrenting — How to torrent safely
 ✦ [Unsafe sites / Softwares](https://fmhy.net/unsafesites) / [2](https://redd.it/10bh0h9)  
 ✦ [Megathread Unsafe Sites](https://rentry.co/megathread-unsafe-sites)  
 
-::: info More sites
+::: info **More sites**
 Visit [**Fmhy.net**](https://fmhy.net/) for more!
 :::
 
-::: warning Suggestions
-**If you would like to add more helpful websites here, feel free to reach out to @ihyledd on Discord.**
+::: warning **Suggestions**
+If you would like to add more helpful websites here, feel free to reach out to **@ihyledd** on Discord.
 :::
