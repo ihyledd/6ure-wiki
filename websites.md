@@ -13,6 +13,7 @@ search: true
 ### Discord Server
 ✦ [6ure™](https://discord.gg/6ure) — Offers plethora of free presets for editors to use (Our server)  
 ✦ [Satvrn](https://discord.gg/pc6j7Qy4PU) — Trusted softwares, plugins & plethora of other resources (Highly recommended)  
+[PC Help Hub](https://discord.gg/pchh) — Large tech community for PC/laptop advice, builds, repairs, and malware removal
 
 ### Scenepacks
 [411 - scenepacks.com](https://discord.gg/411) — Discord  
