@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/',
   title: "Home",
   description: "The largest leaking community on Discord for editors!",
-  titleTemplate: ':title • 6ure',
+  titleTemplate: ':title • 6ure™',
   cleanUrls: true,
   lang: 'en-US',
   appearance: 'dark',
@@ -17,7 +17,7 @@ export default defineConfig({
 
   // --- All theme settings go inside this object ---
   themeConfig: {
-    siteTitle: '6ure',
+    siteTitle: '6ure™',
     logo: 'https://cdn.discordapp.com/icons/1118862694980788276/27f3921db1ab7d2900ffab1ed83ca16a.png?size=1024',
     lastUpdated: {
       text: 'Last updated',
