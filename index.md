@@ -12,8 +12,11 @@ hero:
   actions:
     - theme: brand
   # alt / brand theme
-      text: See Beginners Guide
-      link: /beginners
+      text: Frequently Asked Questions
+      link: /faq
+    - theme: alt
+      text: Discord
+      link: /discord
 
 features:
   - title: Moderator Guide !
