@@ -18,7 +18,7 @@ Downloading presets is an easy process, but it does require basic familiarity wi
 
 1. **Access the Presets Channel**
 - Navigate to the [`#・presets`](https://discord.com/channels/1118862694980788276/1340609745270345831) channel on our Discord server.
-2. **Locate Your Desired Preset**
+2. **Find Your Desired Preset**
 - Browse through the available presets until you find the one you wish to download.
 3. **Proceed the Download**
 - Once you have found a preset, click the **`Download`** button.
