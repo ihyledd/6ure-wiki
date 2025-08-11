@@ -41,13 +41,13 @@ These links provide extra editing and software resources for both Windows and Ma
 :::
 ### Adobe
 
-[Adobe Photoshop 2020](https://drive.google.com/file/d/1jsySlrNRn0G8cCT6KS0E-zXYWKa-vktw/view?usp=share_link)
-[Media Encoder 2024](https://drive.google.com/file/d/1eJaMQRXtMWb_Gd43m11TfVY-y6yBYGCS/view?usp=drive_link)
-[Media encoder](https://drive.google.com/drive/folders/1_SyUVlo8zQ5ZD3pbGkQVrAI1lJq-rKDW) For versions 2019-2023
+[Adobe Photoshop 2020](https://drive.google.com/file/d/1jsySlrNRn0G8cCT6KS0E-zXYWKa-vktw/view?usp=share_link)  
+[Media Encoder 2024](https://drive.google.com/file/d/1eJaMQRXtMWb_Gd43m11TfVY-y6yBYGCS/view?usp=drive_link)  
+[Media encoder](https://drive.google.com/drive/folders/1_SyUVlo8zQ5ZD3pbGkQVrAI1lJq-rKDW) For versions 2019-2023  
 
 ## Plugins
 
-[Influx](https://www.mediafire.com/file/jdel2679cfk4fps/Influx_v1.4.2_(For_AE_2024_and_2025).rar/file) For After Effects 2024/2025
-[Influx 1.3.0](https://drive.google.com/drive/folders/1hPRDLTyoE4GOl6X3CVlwlGh_Mn_6syJb?usp=drive_link)
-[Prime Tools by Naughtyyjuan](https://www.mediafire.com/folder/kg1fjc57gp4sj/PrimeTools_By_Naughtyyjuan)
+[Influx](https://www.mediafire.com/file/jdel2679cfk4fps/Influx_v1.4.2_(For_AE_2024_and_2025).rar/file) For After Effects 2024/2025  
+[Influx 1.3.0](https://drive.google.com/drive/folders/1hPRDLTyoE4GOl6X3CVlwlGh_Mn_6syJb?usp=drive_link)  
+[Prime Tools by Naughtyyjuan](https://www.mediafire.com/folder/kg1fjc57gp4sj/PrimeTools_By_Naughtyyjuan)  
 
