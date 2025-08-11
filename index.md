@@ -13,10 +13,10 @@ hero:
     - theme: brand
   # alt / brand theme
       text: Frequently Asked Questions
-      link: /faq
+      link: /faq/general
     - theme: alt
       text: Discord
-      link: /discord
+      link: https://discord.gg/6ure
 
 features:
   - title: Beginners Guide
