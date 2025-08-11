@@ -9,7 +9,6 @@ search: true
 ::: tip
 Use **Ctrl+F** / **⌘+F** to easily navigate the page.  
 :::
----
 ::: warning Attention !
 **If you're seeking more Windows resources, please join the server listed below:**
 - [Satvrn](https://discord.gg/pc6j7Qy4PU)
