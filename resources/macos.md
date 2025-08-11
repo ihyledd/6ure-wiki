@@ -6,8 +6,8 @@ lastUpdated: true
 search: true
 ---
 # MacOs
-::: Tip
-Use **Ctrl+F** / **⌘+F** to easily navigate the page.
+::: tip
+Use **Ctrl+F** / **⌘+F** to easily navigate the page.  
 :::
 ---
 ::: warning Attention !
