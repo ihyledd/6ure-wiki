@@ -28,7 +28,7 @@ A red X means that whatever plugin you're using is unlicensed. This means that y
 If you’ve tried multiple sources and still have problems, it could be due to an error on your side or an issue on our end. To fix this, you can consider getting plugins from a different source or try to find the problem if we don’t see any issues on our side. It is important to note that most of these plugins are outside our control, so problems are rare.  
 
 You are welcome to join the server below if you'd like. They offer much broader options and assistance.  
-- [Satvrn Discord Server](https://discord.gg/satvrn) 
+- [Saturn ✦](https://discord.gg/pc6j7Qy4PU) 
 
 
 ### I cannot find what I'm looking for. Can you guys update the page?
