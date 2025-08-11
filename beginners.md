@@ -35,11 +35,6 @@ Downloading presets is an easy process, but it does require basic familiarity wi
 ![Alt text](assets/Untitled_design__2_-removebg-preview.png){width=395px height=175px}
 
 ## How to get Password {#password}
-Here’s a clean and detailed version based on your description and the images you provided:
-
----
-
-## How to Get Access to Download Presets {#access}
 
 1. **Go to Access Channel**
 - Go to the [`#・access`](https://discord.com/channels/1118862694980788276/1193416406587428924) channel in our Discord server.
