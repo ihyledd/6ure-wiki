@@ -54,7 +54,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Helpful Links',
+        text: 'Other',
         collapsed: false,
         items: [
           { text: 'Websites', link: '/websites' },
