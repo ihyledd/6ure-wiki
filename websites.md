@@ -49,6 +49,12 @@ search: true
 [Sound effects:SFX 2](https://pixabay.com/sound-effects/)  
 [Sound effects:SFX 3](https://mixkit.co/free-sound-effects/)  
 
+## Tools
+
+https://fmhy.net/ — Offers a wide range of free tools, including ad blockers, torrenting, streaming services, & etc
+https://streamable.com/ — Easily share videos, ideal for sharing edits on Discord
+https://vocalremover.org/ Easily split the vocal and instrumental from an audio
+
 ## Guides
 
 https://fmhy.net/adblockvpnguide — Adblocker  
