@@ -9,7 +9,7 @@ search: true
 
 ## How to download presets from [`#・presets`](https://discord.com/channels/1118862694980788276/1340609745270345831)?
 
-Downloading presets is an easy process, but it does require basic familiarity with Discord, attention to detail, and the ability to follow instructions carefully. Please ensure you understand how to navigate Discord before proceeding.
+Downloading presets is an easy process, but it does require basic familiarity with Discord, and the ability to follow instructions carefully. Please ensure you understand how to navigate Discord before proceeding.
 ::: tip Must Read
 - **You must install [WinRAR](https://www.win-rar.com/) (Windows) / [Keka](https://d.keka.io/) (MacOS) in order to extract our files.**
 :::
