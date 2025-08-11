@@ -11,7 +11,7 @@ Use **Ctrl+F** / **⌘+F** to easily navigate the page.
 :::
 ::: warning Attention !
 **If you're seeking more MacOs resources, please join the server listed below:**
-- [Satvrn](https://discord.gg/pc6j7Qy4PU)
+- [Saturn ✦](https://discord.gg/pc6j7Qy4PU)
 > Please note that our current selection of resources is limited.
 :::
 
