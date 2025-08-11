@@ -18,12 +18,12 @@ The step to download presets is not that complicated to understand, but having a
 - Go to [`#・presets`](https://discord.com/channels/1118862694980788276/1340609745270345831)
 - Find the presets that you would like to download
 - Once you found one, Click the `download` button
-![Alt text](assets/Screenshot%202025-08-11%20123538.png)
+![Alt text](assets/Screenshot%202025-08-11%20123538.png){width=395px height=175px}
 - You'll see an ephemeral message with the download link, click `DOWNLOAD` & you'll be redirect to the download page
-![Alt text](assets/Screenshot%202025-08-11%20123608.png)
+![Alt text](assets/Screenshot%202025-08-11%20123608.png){width=395px height=175px}
 - On the download page, you'll require a password in order to download it, enter the password and click sign in. (Read [Steps to get Password](./#Password) If you don't have one)
-![Alt text](assets/Screenshot%202025-08-11%20124339.png){width=250px height=100px}
+![Alt text](assets/Screenshot%202025-08-11%20124339.png){width=395px height=175px}
 - Done! Your download is ready to go
-![Alt text](assets/Screenshot%202025-08-11%20124633.png){width=250px height=100px}
+![Alt text](assets/Screenshot%202025-08-11%20124633.png){width=395px height=175px}
 
 ## Steps to get Password {#Password}
