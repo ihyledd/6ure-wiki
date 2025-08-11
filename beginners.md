@@ -33,6 +33,7 @@ Downloading presets is an easy process, but it does require basic familiarity wi
 6. **Complete the Download**
 - Once signed in, your download will begin. Your file is now ready to use.
 ![Alt text](assets/Untitled_design__2_-removebg-preview.png){width=395px height=175px}
+> If you prefer visual guide, you can watch it here: https://streamable.com/mq1cg4
 
 ## How to get Password {#password}
 
