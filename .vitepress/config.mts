@@ -47,10 +47,17 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Guide',
+        text: 'Guides',
         collapsed: false,
         items: [
           { text: 'Beginners Guide', link: '/beginners' },
+        ]
+      },
+      {
+        text: 'Helpful Links',
+        collapsed: false,
+        items: [
+          { text: 'Beginners Guide', link: '/websites' },
         ]
       }
     ],
