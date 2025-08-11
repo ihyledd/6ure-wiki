@@ -14,16 +14,28 @@ The step to download presets is not that complicated to understand, but having a
 - **You must install [WinRAR](https://www.win-rar.com/) (Windows) / [Keka](https://d.keka.io/) (MacOS) in order to extract our files.**
 :::
 
-## Steps to download {#Download}
-- Go to [`#・presets`](https://discord.com/channels/1118862694980788276/1340609745270345831)
-- Find the presets that you would like to download
-- Once you found one, Click the `download` button
-![Alt text](assets/Screenshot%202025-08-11%20123538.png){width=395px height=175px}
-- You'll see an ephemeral message with the download link, click `DOWNLOAD` & you'll be redirect to the download page
-![Alt text](assets/Screenshot%202025-08-11%20123608.png){width=395px height=175px}
-- On the download page, you'll require a password in order to download it, enter the password and click sign in. (Read [Steps to get Password](./#Password) If you don't have one)
-![Alt text](assets/Screenshot%202025-08-11%20124339.png){width=395px height=175px}
-- Done! Your download is ready to go
-![Alt text](assets/Screenshot%202025-08-11%20124633.png){width=395px height=175px}
+Here’s a more detailed and formal rewrite of your steps, while still keeping it clear and easy to follow:
 
-## Steps to get Password {#Password}
+---
+
+## Steps to Download {#download}
+
+1. **Access the Presets Channel**
+Navigate to the [`#・presets`](https://discord.com/channels/1118862694980788276/1340609745270345831) channel on our Discord server.
+2. **Locate Your Desired Preset**
+Browse through the available presets until you find the one you wish to download.
+3. **Initiate the Download**
+Once you have selected a preset, click the **`Download`** button.
+![Alt text](assets/Screenshot%202025-08-11%20123538.png){width=395px height=175px}
+4. **Retrieve the Download Link**
+After clicking the download button, an **ephemeral message** will appear containing your download link. Click **`DOWNLOAD`** to be redirected to the download page.
+![Alt text](assets/Screenshot%202025-08-11%20123608.png){width=395px height=175px}
+5. **Enter the Download Password**
+On the download page, you will be prompted to enter a password before proceeding. Input the password and click **Sign In**.
+> If you do not have a password, please refer to the [Steps to Get Password](#password) section.
+> ![Alt text](assets/Screenshot%202025-08-11%20124339.png){width=395px height=175px}
+6. **Complete the Download**
+Once signed in, your download will begin. Your file is now ready to use.
+  ![Alt text](assets/Screenshot%202025-08-11%20124633.png){width=395px height=175px}
+
+## Steps to get Password {#password}
