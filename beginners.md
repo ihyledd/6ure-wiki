@@ -11,7 +11,7 @@ search: true
 
 Downloading presets is an easy process, but it does require basic familiarity with Discord, and the ability to follow instructions carefully. Please ensure you understand how to navigate Discord before proceeding.
 ::: tip Must Read
-- **You must install [WinRAR](https://www.win-rar.com/) (Windows) / [Keka](https://d.keka.io/) (MacOS) in order to extract our files.**
+- **You must install [WinRAR](https://www.win-rar.com/) (Windows) / [TheUnarchiver]([https://d.keka.io/](https://theunarchiver.com/)) (MacOS) in order to extract our files.**
 :::
 
 ## How to Download {#download}
