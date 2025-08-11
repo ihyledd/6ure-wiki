@@ -51,9 +51,9 @@ search: true
 
 ## Tools
 
-https://fmhy.net/ — Offers a wide range of free tools, including ad blockers, torrenting, streaming services, & etc
-https://streamable.com/ — Easily share videos, ideal for sharing edits on Discord
-https://vocalremover.org/ Easily split the vocal and instrumental from an audio
+https://fmhy.net/ — Offers a wide range of free tools, including ad blockers, torrenting, streaming services, & etc  
+https://streamable.com/ — Easily share videos, ideal for sharing edits on Discord  
+https://vocalremover.org/ Easily split the vocal and instrumental from an audio  
 
 ## Guides
 
@@ -79,10 +79,6 @@ https://fmhy.net/beginners-guide#torrenting — How to torrent safely
 
 ✦ [Unsafe sites / Softwares](https://fmhy.net/unsafesites) / [2](https://redd.it/10bh0h9)  
 ✦ [Megathread Unsafe Sites](https://rentry.co/megathread-unsafe-sites)  
-
-::: info **More sites**
-Visit [**Fmhy.net**](https://fmhy.net/) for more!
-:::
 
 ::: warning **Suggestions**
 If you would like to add more helpful websites here, feel free to reach out to **@ihyledd** on Discord.
