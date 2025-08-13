@@ -62,8 +62,8 @@ https://fmhy.net/ — Offers a wide range of free tools, including ad blockers, 
 https://streamable.com/ — Easily share videos, ideal for sharing edits on Discord  
 https://vocalremover.org/ — Easily split the vocal and instrumental from an audio  
 https://ultimatevocalremover.com/ — Vocal Remover  
-https://ssstik.io/ — Download TikTok video without watermark
-https://www.ghostery.com/ — AdBlock
+https://ssstik.io/ — Download TikTok video without watermark  
+https://www.ghostery.com/ — AdBlock  
 
 ## Guides
 
