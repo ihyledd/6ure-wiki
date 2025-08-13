@@ -7,4 +7,4 @@ search: true
 ---
 # Resources
 
-## [Windows](/resources/windows) | [MacOs](/resources/macos) | [Extras](/resources/extras)
+## [Windows](/resources/windows) ✦ [MacOs](/resources/macos) ✦ [Extras](/resources/extras)
