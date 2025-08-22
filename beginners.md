@@ -37,15 +37,15 @@ Once signed in, your download will begin. Your file is now ready to use.
 
 ## How to get Password {#password}
 
-1. **Go to Access Channel**
-Go to the [`#・access`](https://discord.com/channels/1118862694980788276/1193416406587428924) channel in our Discord server.  
-2. **Find the Access Message**
+1. **Go to Access Channel**  
+Go to the [`#・access`](https://discord.com/channels/1118862694980788276/1193416406587428924) channel in our Discord server.   
+2. **Find the Access Message**  
 You will see a message from 6ure™ (as shown below) with a **key button**.  
 ![Access Message Example](assets/Untitled_design__1_-removebg-preview.png){width=395px height=175px}  
-3. **Click the Key Button**
+3. **Click the Key Button**  
 Clicking the key button will bring up a second message containing links and instructions.  
 ![Password & Guide Message](assets/Untitled_design-removebg-preview.png){width=395px height=175px}  
-4. **Get the Password or Tutorial**
+4. **Get the Password or Tutorial**  
 To obtain the password, click **`Get Password`** link.  
 For step-by-step instructions, click **`Visual Guide`** link.  
 > For brevity, we will not include the full tutorial here. The Visual Guide explains the process in detail.  
