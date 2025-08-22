@@ -20,7 +20,7 @@ Use **Ctrl+F** / **⌘+F** to easily navigate the page.
 ### Adobe
 
 [After Effects 2025](https://drive.google.com/file/d/1ZJAjOP1DtwL_FSJTJjKW_-CP0ubQddr_/view?usp=sharing) (**Password: `lofix`**)  
-[After Effects 2024](https://www.mediafire.com/file_premium/foyfjf4j15yu096/After_Effects_2024.rar/file) (**Passoword: `lofix`**)  
+[After Effects 2024](https://www.mediafire.com/file_premium/foyfjf4j15yu096/After_Effects_2024.rar/file) (**Password: `lofix`**)  
 [Media Encoder 2023](https://drive.google.com/file/d/1qqMm3imYdwELbIM3h78RmfdhXcHmqxYt/view)  
 
 ### Topaz Labs
