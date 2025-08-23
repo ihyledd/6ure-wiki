@@ -30,9 +30,9 @@ After clicking the download button, an **ephemeral message** will appear contain
 On the download page, you will be prompted to enter a password before proceeding. Input the password and click **Sign In**.  
 ![Alt text](assets/Untitled%20design%20(3).png){width=395px height=175px}
 > If you do not have a password, please refer to the [How to Get Password](#password) section.  
-7. **Complete the Download**
+7. **Complete the Download**  
 Once signed in, your download will begin. Your file is now ready to use.  
-![Alt text](assets/Untitled_design__2_-removebg-preview.png){width=395px height=175px}  
+![Alt text](assets/Untitled_design__2_-removebg-preview.png){width=395px height=175px}   
 > If you prefer visual guide, you can watch it here: https://streamable.com/mq1cg4  
 
 ## How to get Password {#password}
