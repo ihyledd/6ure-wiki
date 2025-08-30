@@ -12,7 +12,7 @@ search: false
 - Open a `#ticket` for more information.
 
 ### Partnership
-- If you do not have **at-least 1,000 members** we will not partner.
+- If you do not have **at-least 5,000 members** we will not partner.
 - Must follow Discord [TOS](https://discord.com/terms) & No NSFW.
 - Editing Server (optional)
 - Have a good moderation/similar rules.
