@@ -42,13 +42,13 @@ search: false
 > Trainees! Please look at how current Moderators give verbal warnings and take inspiration from what they're doing and saying. Please don't use AI, it is obvious most of the time.
 
 - **Being Disrespectful:**  
--# Verbal warn, if they continue: 12 hour ,mute.  
+Verbal warn, if they continue: 12 hour ,mute.  
 - **Arguments:**  
--# Send `!fight`, if they continue: 5 minute mute.  
+Send `!fight`, if they continue: 5 minute mute.  
 - **NSFW Conversations:**  
--# Verbal warn.  
+Verbal warn.  
 - **Talking in a different Language:**  
--# Verbal warn.  
+Verbal warn.  
 
 **Ban Duration Guide**
 | Type | Duration |
