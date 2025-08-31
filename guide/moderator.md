@@ -177,7 +177,7 @@ Please stop sending NSFW content. Doing this again will result in a permanent ba
 Sending pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. If you do this again, you will be banned. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
 
 > `accounts`  
-Selling or Buying accounts is against our <#1250087429763760250> and Discord's ToS.  
+Selling or Buying accounts is against our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250) and Discord's ToS.  
 
 > `dmad`  
 DM advertising is not allowed. You are banned as a result.  
