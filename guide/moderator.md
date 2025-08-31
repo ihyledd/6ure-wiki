@@ -156,7 +156,7 @@ I will use `!warn` as an example, but it works the same with the other commands.
 Please don’t ping staff for requests. Requests are fulfilled based on availability, and upvotes do not guarantee that the request will be leaked.  
 
 > `selfpromo`  
-Self-promotion is only allowed in [・edits](https://discord.com/channels/1118862694980788276/1130552243498791012). Promoting your socials elsewhere is not allowed. Please read our <#1250087429763760250>.  
+Self-promotion is only allowed in [・edits](https://discord.com/channels/1118862694980788276/1130552243498791012). Promoting your socials elsewhere is not allowed. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
 
 > `payhippromo`  
 Promoting your payhip elsewhere is not allowed. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
