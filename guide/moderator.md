@@ -42,83 +42,83 @@ search: false
 > Trainees! Please look at how current Moderators give verbal warnings and take inspiration from what they're doing and saying. Please don't use AI, it is obvious most of the time.
 
 - **Being Disrespectful:**  
-Verbal warn, if they continue: 12 hour mute.  
+> Verbal warn, if they continue: 12 hour mute.  
 - **Arguments:**  
-Send `!fight`, if they continue: 30 minute mute.  
+> Send `!fight`, if they continue: 30 minute mute.  
 - **NSFW Conversations:**  
-Verbal warn.  
+> Verbal warn.  
 - **Talking in a different Language:**  
-Verbal warn.
+> Verbal warn.
 
 ### **Normal** __Warnings__
 
 - **Asking for Pirated Content:**  
-Verbal Warn + `piracy`.  
+> Verbal Warn + `piracy`.  
 - **Sharing Pirated Content:**  
-Reason: `sendingpiracy`  
+> Reason: `sendingpiracy`  
 - **Spamming same Message in multiple Channels:**  
-Reason: `channelspam`.  
+> Reason: `channelspam`.  
 - **Pinging Helpers in non-help Channels:**  
-Verbal Warn + `outsideping`.  
+> Verbal Warn + `outsideping`.  
 - **Mild NSFW:**  
-Reason: `mildnsfw`.  
-- **Self Promoting outside of <#1130552243498791012>:**  
-Verbal Warn + `selfpromo`.  
-- **Advertising Payhip in <#1130552243498791012>:**  
-Verbal Warn + `payhippromo`.  
-- **Requests outside of <#1253224549152198777>:**  
-Verbal Warn + `outsidereq`.  
+> Reason: `mildnsfw`.  
+- **Self Promoting outside of [#・edits](https://discord.com/channels/1118862694980788276/1130552243498791012):**  
+> Verbal Warn + `selfpromo`.  
+- **Advertising Payhip in [#・edits](https://discord.com/channels/1118862694980788276/1130552243498791012):**  
+> Verbal Warn + `payhippromo`.  
+- **Requests outside of [#・request](https://discord.com/channels/1118862694980788276/1253224549152198777):**  
+> Verbal Warn + `outsidereq`.  
 - **Posting their ad more than once:**  
-Reason: `doublead`.  
+> Reason: `doublead`.  
 - **Rude behavior, harassment or instigating arguments:**  
-Reason: `toxicity`.    
+> Reason: `toxicity`.    
 - **Leaving tickets empty or failing to respond:**  
-Reason: `ticket`.  
+> Reason: `ticket`.  
 - **Ping staff for requests:**  
-Reason: `requestping`.
+> Reason: `requestping`.
 
 ### **Ki**__cks__  
 > Required Role: Moderator or higher.  
 
 - **Selling/Buying any kind of Accounts:**  
-Reason: `accounts`.  
+> Reason: `accounts`.  
 - **DM Advertising:**  
-Reason: `dmad`.  
+> Reason: `dmad`.  
 
--# **All** __Bans__
+### **All** __Bans__
 > Required Role: Moderator or higher. Proof Required for ALL bans.  
 
 - **Scamming in trade:**  
-Reason: `trade`.  
+> Reason: `trade`.  
 - **Scammers:**  
-Reason: `make your own`.  
+> Reason: `make your own`.  
 - **Sending Nudity, Gore, etc:**  
--# Reason: `nsfwban`.  
+> Reason: `nsfwban`.  
 - **Slurs:**
-Reason: `hatespeech`.  
+> Reason: `hatespeech`.  
 - **Being under the age of 13:**  
-Reason: `underage`.  
+> Reason: `underage`.  
 - **Doxxing:**  
-Reason: `doxxing`.  
+> Reason: `doxxing`.  
 - **Raiding:**  
-Reason: `raiding`.  
+> Reason: `raiding`.  
 - **Using alternate accounts to bypass bans or punishments:**  
 Reason: `alts`.  
 - **Sharing password:**  
-Reason: `password`.  
+> Reason: `password`.  
 - **Sending phishing links or harmful files:**  
-Reason: `hacked`.  
+> Reason: `hacked`.  
 - **Scamming in trades:**  
-Reason: `tradescam`.  
+> Reason: `tradescam`.  
 - **Disapproving act of leaking:**  
-Reason: `hypocrisy`.
+> Reason: `hypocrisy`.
 
 ### **Other** / __Info__
 
 - Avoid warning new accounts, just redirect them (give them a verbal warn). If they (for example) misuse a channel more than once you can warn them.
 - If you (for whatever reason) need to make your own reason, use `!warn (userid) (reason)`. Do **not** do this without asking other Moderators (or higher) first.
 
-> Words that look like `this` are predefined reasons. Learn how to use them here: [`Predefined Reasons`].
+> Words that look like `this` are predefined reasons. Learn how to use them here: [`Predefined Reasons`](#What are the Predefined Reasons?).
 > **Don't** warn **new members** for posting something in the wrong channel. Redirect them instead.
 
 **Ban Duration Guide**
@@ -141,12 +141,12 @@ I will use `!warn` as an example, but it works the same with the other commands.
 ```
 !warn @617249450867425301 selfpromo
 ```
-!warn [userid] [duration] [predefinedreason]
+**`!warn [userid] [duration] [predefinedreason]`**
 
 ### **Predefined** __Reasons__
 
 > `piracy`  
-Asking for pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. Please read our <#1250087429763760250>.  
+> Asking for pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. Please read our <#1250087429763760250>.  
 
 > `requestping`  
 Please don’t ping staff for requests. Requests are fulfilled based on availability, and upvotes do not guarantee that the request will be leaked.  
