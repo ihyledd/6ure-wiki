@@ -39,7 +39,9 @@ search: false
 
 ### **Verbal** __Warnings__
 
-> Trainees! Please look at how current Moderators give verbal warnings and take inspiration from what they're doing and saying. Please don't use AI, it is obvious most of the time.
+::: info  
+Trainees! Please look at how current Moderators give verbal warnings and take inspiration from what they're doing and saying. Please don't use AI, it is obvious most of the time.
+:::
 
 - **Being Disrespectful:**  
 > Verbal warn, if they continue: 12 hour mute.  
@@ -78,7 +80,7 @@ search: false
 > Reason: `requestping`.
 
 ### **Ki**__cks__  
-> Required Role: Moderator or higher.  
+***Required Role: Moderator or higher.***  
 
 - **Selling/Buying any kind of Accounts:**  
 > Reason: `accounts`.  
@@ -86,7 +88,7 @@ search: false
 > Reason: `dmad`.  
 
 ### **All** __Bans__
-> Required Role: Moderator or higher. Proof Required for ALL bans.  
+***Required Role: Moderator or higher. Proof Required for ALL bans.***  
 
 - **Scamming in trade:**  
 > Reason: `trade`.  
@@ -118,7 +120,7 @@ Reason: `alts`.
 - Avoid warning new accounts, just redirect them (give them a verbal warn). If they (for example) misuse a channel more than once you can warn them.
 - If you (for whatever reason) need to make your own reason, use `!warn (userid) (reason)`. Do **not** do this without asking other Moderators (or higher) first.
 
-> Words that look like `this` are predefined reasons. Learn how to use them here: [`Predefined Reasons`](#What are the Predefined Reasons?).
+> Words that look like `this` are predefined reasons. Learn how to use them here: [`Predefined Reasons`](#what-are-the-predefined-reasons).
 > **Don't** warn **new members** for posting something in the wrong channel. Redirect them instead.
 
 **Ban Duration Guide**
@@ -135,8 +137,10 @@ Always check user history with `!warnings (user)` before taking action
 
 ### **How to use** __Predefined Reasons__
 
-> Predefined Reasons work for **Warns**, **Timeouts**, **Kicks** and **Bans**.
+::: info  
+Predefined Reasons work for **Warns**, **Timeouts**, **Kicks** and **Bans**.
 I will use `!warn` as an example, but it works the same with the other commands.
+:::
 
 ```
 !warn @617249450867425301 selfpromo
@@ -146,31 +150,31 @@ I will use `!warn` as an example, but it works the same with the other commands.
 ### **Predefined** __Reasons__
 
 > `piracy`  
-> Asking for pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. Please read our <#1250087429763760250>.  
+> Asking for pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
 
 > `requestping`  
 Please don’t ping staff for requests. Requests are fulfilled based on availability, and upvotes do not guarantee that the request will be leaked.  
 
 > `selfpromo`  
-Self-promotion is only allowed in <#1130552243498791012>. Promoting your socials elsewhere is not allowed. Please read our <#1250087429763760250>.  
+Self-promotion is only allowed in [・edits](https://discord.com/channels/1118862694980788276/1130552243498791012). Promoting your socials elsewhere is not allowed. Please read our <#1250087429763760250>.  
 
 > `payhippromo`  
-Promoting your payhip elsewhere is not allowed. Please read our <#1250087429763760250>.  
+Promoting your payhip elsewhere is not allowed. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
 
 > `outsidereq`  
-Requests are only allowed in our request channels. Posting them elsewhere isn’t allowed. Please read our <#1250087429763760250>. You can create a request here: <#1253224549152198777>.  
+Requests are only allowed in our request channels. Posting them elsewhere isn’t allowed. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250). You can create a request here: [・request](https://discord.com/channels/1118862694980788276/1253224549152198777).  
 
 > `doublead`  
-Please don't post your ad more than once. You can find our rules pinned in <#1310079315227967588>.  
+Please don't post your ad more than once. You can find our rules pinned in [・commissions](https://discord.com/channels/1118862694980788276/1310079315227967588).  
 
 > `channelspam`  
-Please refrain from spamming the same message in multiple channels, or you will get kicked. Please read our <#1250087429763760250>.  
+Please refrain from spamming the same message in multiple channels, or you will get kicked. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
 
 > `mildnsfw`  
-Please stop sending NSFW content. Doing this again will result in a permanent ban. Please read our <#1250087429763760250>.  
+Please stop sending NSFW content. Doing this again will result in a permanent ban. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
 
 > `sendingpiracy`  
-Sending pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. If you do this again, you will be banned. Please read our <#1250087429763760250>.  
+Sending pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. If you do this again, you will be banned. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
 
 > `accounts`  
 Selling or Buying accounts is against our <#1250087429763760250> and Discord's ToS.  
@@ -185,7 +189,7 @@ Posting NSFW content in non-age-restricted channels violates Discord’s Terms o
 Hate speech of any kind is not tolerated and is against Discord’s Terms of Service. You are banned as a result.  
 
 > `trade`  
-Scamming in trades is not tolerated. You are banned as a result. Please read our <#1250087429763760250>.  
+Scamming in trades is not tolerated. You are banned as a result. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
 
 > `underage`  
 You are under the age of 13, which violates Discord’s Terms of Service. You can appeal this ban once you are 13 or older.  
@@ -200,7 +204,7 @@ Leaving tickets empty or failing to respond wastes staff time. Please only creat
 Sharing password access to our preset files outside of the server is strictly prohibited. You are banned as a result.  
 
 > `toxicity`  
-Excessive rude behavior, harassment, or instigating arguments is not tolerated. Please remain respectful & read our <#1250087429763760250>.  
+Excessive rude behavior, harassment, or instigating arguments is not tolerated. Please remain respectful & read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
 
 > `alts`  
 Using alternate accounts to bypass bans or punishments is prohibited. You are banned as a result.  
