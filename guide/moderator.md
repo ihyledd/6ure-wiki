@@ -28,7 +28,7 @@ search: false
 
 ### Moderation Actions
 - Use punishment commands where the incident occurred or in `#・staff-cmd`
-- Always check previous warnings with `!warnings @mention`
+- Always check previous warnings or cases with `!cases @mention`
 
 ### General Guidelines
 - Maintain a family-friendly environment
@@ -131,7 +131,7 @@ Reason: `alts`.
 | **Doxxing** | Permanent |
 | **NSFW Content** | Permanent |
 | **Racism** | Permanent |
-Always check user history with `!warnings (user)` before taking action
+Always check user history with `!cases (user)` before taking action
 
 ## What are the Predefined Reasons?
 
@@ -282,6 +282,7 @@ You are **required** to warn any member that leaves a ticket empty or no follow-
   - `!ban @mention/id reason` - Bans the mentioned user. *(Default: No duration)*
   - `!tempban @mention/id 1d reason` - Temporarily bans the mentioned user for 1 day. *(Default: Unknown duration)*
   - `!warnings @mention/id` - Displays the warning history of the mentioned user.
+  - `!cases @mention/id` - Displays the cases history of the mentioned user.
  
 **Note:** These are examples of the basic commands you'll use for moderation.
 
