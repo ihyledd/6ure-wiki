@@ -35,89 +35,20 @@ search: false
 - Use common sense
 - **Have fun :)**
 
-## What are the punishment guidelines for moderators? {#punishment}
+## What are the procedures for mod? {#punishment}
 
-### Level 1 Violations
+### **Verbal** __Warnings__
 
-- **Spam**
-  - 1st Offense: Warn + Delete their messages
-  - 2nd Offense: 30-minute Mute + Delete their messages
-  - 3rd Offense: 1-day Mute + Delete their messages
+> Trainees! Please look at how current Moderators give verbal warnings and take inspiration from what they're doing and saying. Please don't use AI, it is obvious most of the time.
 
-
-- **Not Listening After a Warning**
-  - 1st Offense: Warn
-  - 2nd Offense: Warn + 1-hour Mute  
-  - 3th Offense: Warn + 6-hour Mute  
-  - 4th Offense: Warn + 3-day Mute
-
-
-- **Using the Wrong Channel** 
-  - 1st Offense: Verbal Warn
-  - 2nd Offense: Warn
-  - 3rd Offense: Warn + 1-hour Mute
-  - 4th Offense: Warn + 6-hour Mute
-
-
-- **Repeatedly Asking for Leaks in the Wrong Place** 
-  - 1st Offense: Warn + Delete their messages
-  - 2nd Offense: Warn + Delete their messages
-  - 3rd Offense: Warn + 1-hour Mute + Delete their messages
-  - 4th Offense: Warn + 12-hour Mute + Delete their messages
-  - 5th Offense: Warn + 3-day Mute + Delete their messages
-
-
-### Level 2 Violations
-
-- **Self-Promotion** 
-  - 1st Offense: Warn + Delete their messages
-  - 2nd Offense: Warn + 24-hour Mute + Delete their messages
-  - 3rd Offense: 3-day Mute + Delete their messages
-
-
-- **Harassment** 
-  - 1st Offense: Warn + 1-hour Mute + Delete their messages
-  - 2nd Offense: Warn + 12-hour Mute + Delete their messages
-  - 3rd Offense: Kick + Delete their messages
-
-
-- **Hate Speech/Discrimination** 
-  - 1st Offense: Warn + 1-hour Mute + Delete their messages
-  - 2nd Offense: Warn + 12-hour Mute + Delete their messages
-  - 3rd Offense: Kick + Delete their messages
-
-
-- **Trolling/Disruptive Behavior** 
-  - 1st Offense: Warn + Delete their messages if necessary
-  - 2nd Offense: Warn + 1-hour Mute + Delete their messages if necessary
-  - 3rd Offense: Warn + 12-hour Mute + Delete their messages if necessary
-  - 4th Offense: Kick + Delete their messages if necessary
-
-
-- **Undermining 6ure**
-  - 1st Offense: Warn
-  - 2nd Offense: Kick
-  - 3rd Offense: Ban 
-
-
-- **Spam Ping** 
-  - 1st Offense: Warn + Delete their messages
-  - 2nd Offense: Kick + Delete their messages
-  - 3rd Offense: Ban 
-
-
-- **Bypassing Punishments** *(e.g., using alt accounts to avoid mutes, kicks, or bans)*  
-  - Immediate Ban without warning
-
-
-- **Zero-Tolerance Violations (Immediate Ban)**
-  - NSFW/Gore Content
-  - Doxxing
-  - Copying/Replicating 6ure
-  - Breaking Discord ToS
-  - Racism
-  - Leaking Personal Information
-
+- **Being Disrespectful:**  
+-# Verbal warn, if they continue: 12 hour ,mute.  
+- **Arguments:**  
+-# Send `!fight`, if they continue: 5 minute mute.  
+- **NSFW Conversations:**  
+-# Verbal warn.  
+- **Talking in a different Language:**  
+-# Verbal warn.  
 
 **Ban Duration Guide**
 | Type | Duration |
