@@ -44,7 +44,7 @@ search: false
 - **Being Disrespectful:**  
 Verbal warn, if they continue: 12 hour mute.  
 - **Arguments:**  
-Send `!fight`, if they continue: 5 minute mute.  
+Send `!fight`, if they continue: 30 minute mute.  
 - **NSFW Conversations:**  
 Verbal warn.  
 - **Talking in a different Language:**  
