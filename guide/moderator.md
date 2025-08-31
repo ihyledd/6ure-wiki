@@ -48,7 +48,78 @@ Send `!fight`, if they continue: 5 minute mute.
 - **NSFW Conversations:**  
 Verbal warn.  
 - **Talking in a different Language:**  
-Verbal warn.  
+Verbal warn.
+
+### **Normal** __Warnings__
+
+- **Asking for Pirated Content:**  
+Verbal Warn + `piracy`.  
+- **Sharing Pirated Content:**  
+Reason: `sendingpiracy`  
+- **Spamming same Message in multiple Channels:**  
+Reason: `channelspam`.  
+- **Pinging Helpers in non-help Channels:**  
+Verbal Warn + `outsideping`.  
+- **Mild NSFW:**  
+Reason: `mildnsfw`.  
+- **Self Promoting outside of <#1130552243498791012>:**  
+Verbal Warn + `selfpromo`.  
+- **Advertising Payhip in <#1130552243498791012>:**  
+Verbal Warn + `payhippromo`.  
+- **Requests outside of <#1253224549152198777>:**  
+Verbal Warn + `outsidereq`.  
+- **Posting their ad more than once:**  
+Reason: `doublead`.  
+- **Rude behavior, harassment or instigating arguments:**  
+Reason: `toxicity`.    
+- **Leaving tickets empty or failing to respond:**  
+Reason: `ticket`.  
+- **Ping staff for requests:**  
+Reason: `requestping`.
+
+### **Ki**__cks__  
+> Required Role: Moderator or higher.  
+
+- **Selling/Buying any kind of Accounts:**  
+Reason: `accounts`.  
+- **DM Advertising:**  
+Reason: `dmad`.  
+
+-# **All** __Bans__
+> Required Role: Moderator or higher. Proof Required for ALL bans.  
+
+- **Scamming in trade:**  
+Reason: `trade`.  
+- **Scammers:**  
+Reason: `make your own`.  
+- **Sending Nudity, Gore, etc:**  
+-# Reason: `nsfwban`.  
+- **Slurs:**
+Reason: `hatespeech`.  
+- **Being under the age of 13:**  
+Reason: `underage`.  
+- **Doxxing:**  
+Reason: `doxxing`.  
+- **Raiding:**  
+Reason: `raiding`.  
+- **Using alternate accounts to bypass bans or punishments:**  
+Reason: `alts`.  
+- **Sharing password:**  
+Reason: `password`.  
+- **Sending phishing links or harmful files:**  
+Reason: `hacked`.  
+- **Scamming in trades:**  
+Reason: `tradescam`.  
+- **Disapproving act of leaking:**  
+Reason: `hypocrisy`.
+
+### **Other** / __Info__
+
+- Avoid warning new accounts, just redirect them (give them a verbal warn). If they (for example) misuse a channel more than once you can warn them.
+- If you (for whatever reason) need to make your own reason, use `!warn (userid) (reason)`. Do **not** do this without asking other Moderators (or higher) first.
+
+> Words that look like `this` are predefined reasons. Learn how to use them here: [`Predefined Reasons`].
+> **Don't** warn **new members** for posting something in the wrong channel. Redirect them instead.
 
 **Ban Duration Guide**
 | Type | Duration |
@@ -59,6 +130,92 @@ Verbal warn.
 | **NSFW Content** | Permanent |
 | **Racism** | Permanent |
 Always check user history with `!warnings (user)` before taking action
+
+## What are the Predefined Reasons?
+
+### **How to use** __Predefined Reasons__
+
+> Predefined Reasons work for **Warns**, **Timeouts**, **Kicks** and **Bans**.
+I will use `!warn` as an example, but it works the same with the other commands.
+
+```
+!warn @617249450867425301 selfpromo
+```
+!warn [userid] [duration] [predefinedreason]
+
+### **Predefined** __Reasons__
+
+> `piracy`  
+Asking for pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. Please read our <#1250087429763760250>.  
+
+> `requestping`  
+Please don’t ping staff for requests. Requests are fulfilled based on availability, and upvotes do not guarantee that the request will be leaked.  
+
+> `selfpromo`  
+Self-promotion is only allowed in <#1130552243498791012>. Promoting your socials elsewhere is not allowed. Please read our <#1250087429763760250>.  
+
+> `payhippromo`  
+Promoting your payhip elsewhere is not allowed. Please read our <#1250087429763760250>.  
+
+> `outsidereq`  
+Requests are only allowed in our request channels. Posting them elsewhere isn’t allowed. Please read our <#1250087429763760250>. You can create a request here: <#1253224549152198777>.  
+
+> `doublead`  
+Please don't post your ad more than once. You can find our rules pinned in <#1310079315227967588>.  
+
+> `channelspam`  
+Please refrain from spamming the same message in multiple channels, or you will get kicked. Please read our <#1250087429763760250>.  
+
+> `mildnsfw`  
+Please stop sending NSFW content. Doing this again will result in a permanent ban. Please read our <#1250087429763760250>.  
+
+> `sendingpiracy`  
+Sending pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. If you do this again, you will be banned. Please read our <#1250087429763760250>.  
+
+> `accounts`  
+Selling or Buying accounts is against our <#1250087429763760250> and Discord's ToS.  
+
+> `dmad`  
+DM advertising is not allowed. You are banned as a result.  
+
+> `nsfwban`  
+Posting NSFW content in non-age-restricted channels violates Discord’s Terms of Service. You are banned as a result.  
+
+> `hatespeech`  
+Hate speech of any kind is not tolerated and is against Discord’s Terms of Service. You are banned as a result.  
+
+> `trade`  
+Scamming in trades is not tolerated. You are banned as a result. Please read our <#1250087429763760250>.  
+
+> `underage`  
+You are under the age of 13, which violates Discord’s Terms of Service. You can appeal this ban once you are 13 or older.  
+
+> `hacked`  
+Banned for sending phishing links or harmful files. If your account was hacked, please secure it and appeal for an unban.  
+
+> `ticket`  
+Leaving tickets empty or failing to respond wastes staff time. Please only create a ticket if you’re sure about your request. Multiple violations will result in a ban.  
+
+> `password`  
+Sharing password access to our preset files outside of the server is strictly prohibited. You are banned as a result.  
+
+> `toxicity`  
+Excessive rude behavior, harassment, or instigating arguments is not tolerated. Please remain respectful & read our <#1250087429763760250>.  
+
+> `alts`  
+Using alternate accounts to bypass bans or punishments is prohibited. You are banned as a result.  
+
+> `impersonation`  
+Pretending to be staff or another member is not tolerated. Please stop or you will be banned.  
+
+> `doxxing`  
+Sharing personal information (doxxing) is strictly prohibited and results in an instant ban.  
+
+> `raiding`  
+Coordinated raids or spamming with others is not allowed. You are banned as a result.  
+
+> `hypocrisy`  
+Using leaks while disapproving of leaking is hypocrisy and results in an immediate ban. This also applies if you defend your friends’ stuff while benefiting from others’ leaks.  
 
 ## What are the responsibilities of a moderator? {#responsibilities}
 
