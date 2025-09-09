@@ -5,7 +5,7 @@ outline: deep
 lastUpdated: true
 search: false
 ---
-# Terms of Services
+# Privacy Policy
 ---
 ::: info Effective Date
 September 9, 2025
