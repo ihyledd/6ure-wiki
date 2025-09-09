@@ -5,8 +5,8 @@ outline: deep
 lastUpdated: true
 search: false
 ---
-::: info
-Effective Date: September 9, 2025
+::: info Effective Date
+September 9, 2025
 :::
 
 1. Introduction  
