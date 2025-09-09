@@ -14,18 +14,18 @@ September 9, 2025
 ## 1. Introduction  
 Welcome to 6ure. By accessing or using our services, including our Discord server, bot, and related websites, you agree to comply with and be bound by these Terms of Service. Please read them carefully.  
 
-##2. User Responsibilities  
+## 2. User Responsibilities  
 Users agree to use the service in accordance with all applicable laws and Discord’s Community Guidelines. You must not:  
 - Use 6ure for unlawful purposes.  
 - Attempt to gain unauthorised access to our systems, data, or restricted areas.  
 - Distribute viruses, malware, or any harmful software.  
-##3. Prohibited Activities  
+## 3. Prohibited Activities  
 The following are strictly prohibited on 6ure:  
 - Sharing or uploading pirated or unauthorised content.  
 - Harassing, abusing, or threatening others.  
 - Impersonating another person or entity.  
 - Using bots, scripts, or automated tools without explicit permission.  
-##4. Account Suspension and Termination  
+## 4. Account Suspension and Termination  
 We reserve the right to suspend or terminate access without prior notice if these terms are violated. This may include, but is not limited to:  
 - Repeated rule violations.  
 - Illegal activity.  
