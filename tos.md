@@ -5,40 +5,39 @@ outline: deep
 lastUpdated: true
 search: false
 ---
+# Terms of Service
+---
 ::: info Effective Date
 September 9, 2025
 :::
 
-1. Introduction  
+## 1. Introduction  
 Welcome to 6ure. By accessing or using our services, including our Discord server, bot, and related websites, you agree to comply with and be bound by these Terms of Service. Please read them carefully.  
 
-2. User Responsibilities  
+##2. User Responsibilities  
 Users agree to use the service in accordance with all applicable laws and Discord’s Community Guidelines. You must not:  
-
 - Use 6ure for unlawful purposes.  
 - Attempt to gain unauthorised access to our systems, data, or restricted areas.  
 - Distribute viruses, malware, or any harmful software.  
-3. Prohibited Activities
-The following are strictly prohibited on 6ure:
-
+##3. Prohibited Activities  
+The following are strictly prohibited on 6ure:  
 - Sharing or uploading pirated or unauthorised content.  
 - Harassing, abusing, or threatening others.  
 - Impersonating another person or entity.  
 - Using bots, scripts, or automated tools without explicit permission.  
-4. Account Suspension and Termination  
+##4. Account Suspension and Termination  
 We reserve the right to suspend or terminate access without prior notice if these terms are violated. This may include, but is not limited to:  
-
 - Repeated rule violations.  
 - Illegal activity.  
 - Security threats or abuse of community resources.  
-5. Limitation of Liability  
+## 5. Limitation of Liability  
 6ure is provided “**as is**” and “**as available**.” We do not guarantee uninterrupted or error-free service. To the fullest extent permitted by law, 6ure shall not be held liable for any indirect, incidental, or consequential damages arising from use of the service.  
-6. Changes to Terms  
+## 6. Changes to Terms  
 We may update these Terms of Service at any time. The “**Effective Date**” will be updated accordingly. Continued use of our services constitutes acceptance of the updated terms.  
-7. Governing Law  
+## 7. Governing Law  
 These Terms are governed by and construed in accordance with the laws of Malaysia. Any disputes will be subject to the jurisdiction of the competent courts of Kuala Lumpur, unless otherwise required by applicable law.  
-8. Contact  
+## 8. Contact  
 If you have any questions regarding these Terms, please contact us at:  
 
 📧 6ureleaks@gmail.com
-🌐 https://wiki
+🌐 https://wiki.6ureleaks.com/tos
