@@ -114,6 +114,8 @@ Reason: `alts`.
 > Reason: `tradescam`.  
 - **Disapproving act of leaking:**  
 > Reason: `hypocrisy`.
+- **Racism:**  
+> Reason: `racism`.
 
 ### **Other** / __Info__
 
