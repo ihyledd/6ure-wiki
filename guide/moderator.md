@@ -113,9 +113,9 @@ Reason: `alts`.
 - **Scamming in trades:**  
 > Reason: `tradescam`.  
 - **Disapproving act of leaking:**  
-> Reason: `hypocrisy`.
+> Reason: `hypocrisy`.  
 - **Racism:**  
-> Reason: `racism`.
+> Reason: `racism`.  
 
 ### **Other** / __Info__
 
@@ -221,7 +221,10 @@ Sharing personal information (doxxing) is strictly prohibited and results in an 
 Coordinated raids or spamming with others is not allowed. You are banned as a result.  
 
 > `hypocrisy`  
-Using leaks while disapproving of leaking is hypocrisy and results in an immediate ban. This also applies if you defend your friends’ stuff while benefiting from others’ leaks.  
+Using leaks while disapproving of leaking is hypocrisy and results in an immediate ban. This also applies if you defend your friends’ stuff while benefiting from others’ leaks.
+
+> `racism`  
+Racism of any kind is strictly prohibited and violates both our rules and Discord’s Terms of Service. You are banned as a result.  
 
 ## What are the responsibilities of a moderator? {#responsibilities}
 
