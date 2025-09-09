@@ -16,10 +16,10 @@ Your privacy is important to us. This Privacy Policy outlines how **6ure** (“w
 ## 2. Information We Collect  
 - **Personal Information**: Such as your Discord username, user ID, IP address, and any information you voluntarily provide during verification or account setup.  
 - **Usage Data**: Includes interactions with our server, channels accessed, commands used, and other bot activity data.  
-- **Cookies and Tracking Technologies**: We may use cookies or similar technologies in linked web portals to improve user experience, analyze traffic, and personalize content.
+- **Cookies and Tracking Technologies**: We may use cookies or similar technologies in linked web portals to improve user experience, analyze traffic, and personalise content.
 ## 3. How We Use Your Information  
 - Provide and maintain our services.  
-- Improve and optimize user experience within the server and bot.  
+- Improve and optimise user experience within the server and bot.  
 - Respond to user inquiries and support requests.  
 - Detect, prevent, and address technical issues or violations of our rules.  
 - Communicate with you about updates, announcements, or security alerts (if opted-in).  
@@ -28,7 +28,7 @@ Your privacy is important to us. This Privacy Policy outlines how **6ure** (“w
 - **Legal authorities**: if required by law or necessary to protect our rights or community safety.  
 - **Business transfers**: in the event of a merger, acquisition, or sale of assets.  
 ## 5. Data Security  
-We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet or Discord is 100% secure.  
+We implement appropriate technical and organisational measures to protect your personal information from unauthorised access, disclosure, alteration, or destruction. However, no method of transmission over the internet or Discord is 100% secure.  
 ## 6. Your Rights
 - Access your personal data.  
 - Correct or delete your data.  
