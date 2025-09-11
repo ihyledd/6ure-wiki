@@ -17,7 +17,6 @@ search: true
 [Helix™](https://discord.gg/helixtemp) — Offers variety of free presets  
 
 ### Scenepacks
-[Visual.™](https://discord.gg/zPkv9Hcfgb) — Discord  
 [Fragmentpacks](https://discord.gg/fragmentpacks) — Discord  
 [@megaawrld_](https://www.instagram.com/megaawrld_/) — Instagram (Telegram Required)  
 [@sirenscenes](https://www.instagram.com/sirenscenes/) — Instagram  
