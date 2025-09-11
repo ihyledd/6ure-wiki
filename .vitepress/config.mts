@@ -60,6 +60,14 @@ export default defineConfig({
         items: [
           { text: 'Websites', link: '/websites' },
         ]
+      },
+      {
+        text: 'Information',
+        collapsed: false,
+        items: [
+          { text: 'Privacy Policy', link: '/privacy' },
+          { text: 'Terms of Service', link: '/tos' },
+        ]
       }
     ],
 
