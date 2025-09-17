@@ -1,99 +1,7 @@
-<template>
-  <!-- keep the site's default layout -->
-  <DefaultTheme.Layout />
-
-  <!-- POPUP (session-per-tab) -->
-  <div
-    class="overlay"
-    v-if="showPopup"
-    @click.self="closePopup"
-    role="dialog"
-    aria-modal="true"
-    aria-label="Promo popup"
-  >
-    <div class="popup" ref="popup" tabindex="-1">
-      <!-- close button is plain text (no FA dependency) so it always renders -->
-      <button class="close-btn" @click="closePopup" aria-label="Close popup">✕</button>
-
-      <img
-        class="promo-img"
-        src="https://cdn.discordapp.com/banners/1353997037145948212/a178108fa6364bd78c7d1c76eaba8f17.webp?size=1024"
-        alt="Spade Banner"
-      />
-
-      <h2 class="popup-title">Join Spade Clipping to earn money by editing!</h2>
-
-      <div class="actions">
-        <a :href="inviteLink" target="_blank" rel="noopener noreferrer" @click.prevent="joinClicked" class="cta">
-          Join Now!
-        </a>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script setup>
-import DefaultTheme from 'vitepress/theme'
-import { ref, onMounted, onBeforeUnmount } from 'vue'
-
-/* --- CONFIG: replace these with your actual links --- */
-const inviteLink = 'https://discord.gg/RXWAVYMbmB'
-const webhookUrl = 'https://discord.com/api/webhooks/1417826990559461407/Zi0mA3PnzHZpJgRYX2olngFHC-x_v1wX5sCLC_l4CQkl7DigqcYoYyAvxJX_fuZq3DD9'
-/* ---------------------------------------------------- */
-
-const showPopup = ref(false)
-
-function closePopup() {
-  showPopup.value = false
-  // restore scrolling
-  document.body.style.overflow = ''
-}
-
-function joinClicked() {
-  // close first so user isn't blocked
-  closePopup()
-
-  // send webhook ping (best-effort)
-  try {
-    fetch(webhookUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        username: 'Popup Tracker',
-        content: `A user clicked "Join Now!" on the popup at ${window.location.href}`
-      })
-    }).catch(err => console.error('Webhook failed', err))
-  } catch (e) {
-    console.error('Webhook error', e)
-  }
-
-  // open invite
-  window.open(inviteLink, '_blank')
-}
-
-function onKeyDown(e) {
-  if (e.key === 'Escape') closePopup()
-}
-
-onMounted(() => {
-  showPopup.value = true
-  // lock scrolling while modal is open
-  document.body.style.overflow = 'hidden'
-  document.addEventListener('keydown', onKeyDown)
-})
-
-
-onBeforeUnmount(() => {
-  document.removeEventListener('keydown', onKeyDown)
-  document.body.style.overflow = ''
-})
-</script>
-
 <style scoped>
 :root{
   --accent: #5865f2;
   --primary: #b3b9fc;
-  --bg-popup: #1a1a24;
   --glow: rgba(114,137,218,0.53);
   --text-on-popup: #f0f0f0;
 }
@@ -112,17 +20,23 @@ onBeforeUnmount(() => {
 
 /* popup card */
 .popup {
-  background: rgba(20, 20, 30, 0.95); /* translucent dark panel */
-  backdrop-filter: blur(12px);        /* frosted glass effect */
-  border: 1px solid var(--accent);
+  background: var(--vp-c-bg, rgba(20,20,30,0.95)); /* fallback to translucent */
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--vp-c-divider, var(--accent));
   border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
   padding: 1.5rem;
   text-align: center;
   max-width: 480px;
   width: 90%;
   position: relative;
-  animation: riseIn 0.6s ease-out;
+
+  /* Glow & elevation */
+  box-shadow: 
+    0 0 25px var(--glow),
+    0 8px 30px rgba(0,0,0,0.6);
+
+  /* animation */
+  animation: fadeZoom 0.5s ease-out;
 }
 
 /* image */
@@ -155,27 +69,27 @@ onBeforeUnmount(() => {
   justify-content:center;
 }
 
-/* CTA styled as a button but it's an <a> so it opens in a new tab */
+/* CTA button */
 .cta {
   display:inline-block;
-  padding: 0.68rem 1.2rem;
+  padding: 0.7rem 1.2rem;
   border-radius: 10px;
   background: var(--accent);
   color: white;
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 6px 20px rgba(88,101,242,0.18);
+  box-shadow: 0 0 14px var(--glow);
   transition: transform .18s ease, box-shadow .18s ease;
 }
 .cta:active { transform: translateY(1px); }
-.cta:hover { transform: translateY(-3px); box-shadow: 0 14px 40px rgba(88,101,242,0.24); }
+.cta:hover { transform: translateY(-3px); box-shadow: 0 0 24px var(--glow); }
 
-/* CLOSE BUTTON - make it unmissable on mobile */
+/* CLOSE BUTTON */
 .close-btn {
   position: absolute;
   top: calc(10px + env(safe-area-inset-top));
   right: calc(10px + env(safe-area-inset-right));
-  z-index: 99999; /* extremely high so it sits above the image */
+  z-index: 99999;
   border: none;
   background: rgba(0,0,0,0.28);
   color: var(--text-on-popup);
@@ -195,16 +109,16 @@ onBeforeUnmount(() => {
 .close-btn:hover { transform: rotate(90deg) scale(1.03); background: rgba(0,0,0,0.4); color: #fff; }
 .close-btn:active { transform: scale(0.98); }
 
-/* small screens adjustments */
+/* mobile tweaks */
 @media (max-width: 520px) {
   .close-btn { top: calc(6px + env(safe-area-inset-top)); right: calc(6px + env(safe-area-inset-right)); font-size: 20px; padding: 10px; min-width: 40px; min-height: 40px; }
   .popup { padding: 0.9rem; border-radius: 12px; }
   .popup-title { font-size: 1rem; }
 }
 
-/* small entrance animation */
-@keyframes riseIn {
-  from { transform: translateY(12px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+/* animations */
+@keyframes fadeZoom {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
 }
 </style>
