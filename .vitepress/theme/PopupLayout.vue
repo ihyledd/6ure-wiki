@@ -1,152 +1,211 @@
 <template>
+  <!-- keep the site's default layout -->
   <DefaultTheme.Layout />
 
-  <!-- POPUP BANNER -->
-  <div class="overlay" v-if="showPopup">
-    <div class="popup">
-      <span class="close-btn" @click="closePopup">
-        <i class="fas fa-times"></i>
-      </span>
+  <!-- POPUP (session-per-tab) -->
+  <div
+    class="overlay"
+    v-if="showPopup"
+    @click.self="closePopup"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Promo popup"
+  >
+    <div class="popup" ref="popup" tabindex="-1">
+      <!-- close button is plain text (no FA dependency) so it always renders -->
+      <button class="close-btn" @click="closePopup" aria-label="Close popup">✕</button>
+
       <img
+        class="promo-img"
         src="https://cdn.discordapp.com/banners/1353997037145948212/a178108fa6364bd78c7d1c76eaba8f17.webp?size=1024"
         alt="Spade Banner"
       />
-      <h2>Join Spade Clipping to earn money by editing!</h2>
-      <a :href="inviteLink" target="_blank" @click.prevent="joinClicked">
-        <button>Join Now!</button>
-      </a>
+
+      <h2 class="popup-title">Join Spade Clipping to earn money by editing!</h2>
+
+      <div class="actions">
+        <a :href="inviteLink" target="_blank" rel="noopener noreferrer" @click.prevent="joinClicked" class="cta">
+          Join Now!
+        </a>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 
-// your Discord invite link
+/* --- CONFIG: replace these with your actual links --- */
 const inviteLink = 'https://discord.gg/RXWAVYMbmB'
-
-// webhook URL (replace with your real webhook!)
 const webhookUrl = 'https://discord.com/api/webhooks/1417826990559461407/Zi0mA3PnzHZpJgRYX2olngFHC-x_v1wX5sCLC_l4CQkl7DigqcYoYyAvxJX_fuZq3DD9'
+/* ---------------------------------------------------- */
 
-const showPopup = ref(true)
+const showPopup = ref(false)
 
 function closePopup() {
   showPopup.value = false
-  document.body.style.overflow = 'auto'
+  // restore scrolling
+  document.body.style.overflow = ''
 }
 
 function joinClicked() {
-  // always close the popup
+  // close first so user isn't blocked
   closePopup()
 
-  // send webhook ping
-  fetch(webhookUrl, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      username: 'Popup Tracker',
-      content: `A user clicked "Join Now!" on the popup at ${window.location.href}`
-    })
-  }).catch(err => console.error('Webhook failed', err))
+  // send webhook ping (best-effort)
+  try {
+    fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        username: 'Popup Tracker',
+        content: `🚀 A user clicked "Join Now!" on the popup at ${window.location.href}`
+      })
+    }).catch(err => console.error('Webhook failed', err))
+  } catch (e) {
+    console.error('Webhook error', e)
+  }
 
-  // open invite link
+  // open invite
   window.open(inviteLink, '_blank')
 }
 
+function onKeyDown(e) {
+  if (e.key === 'Escape') closePopup()
+}
+
 onMounted(() => {
-  // check sessionStorage
-  if (!sessionStorage.getItem("popupShown")) {
+  // session-per-tab: show once per session (tab) only
+  if (!sessionStorage.getItem('popupShown')) {
     showPopup.value = true
+    sessionStorage.setItem('popupShown', 'true')
+    // lock scrolling while modal is open
     document.body.style.overflow = 'hidden'
-    sessionStorage.setItem("popupShown", "true")
   }
+  document.addEventListener('keydown', onKeyDown)
+})
+
+onBeforeUnmount(() => {
+  document.removeEventListener('keydown', onKeyDown)
+  document.body.style.overflow = ''
 })
 </script>
 
-<style>
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css');
-
-:root {
-  --bg: #0e0e10;
-  --primary: #b3b9fc;
+<style scoped>
+:root{
   --accent: #5865f2;
-  --text: #f0f0f0;
-  --glow: #7289da88;
+  --primary: #b3b9fc;
+  --bg-popup: #1a1a24;
+  --glow: rgba(114,137,218,0.53);
+  --text-on-popup: #f0f0f0;
 }
 
+/* overlay */
 .overlay {
   position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.6);
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 999;
-  animation: fadeIn 0.5s ease;
+  background: rgba(0,0,0,0.6);
+  z-index: 9999;
+  -webkit-overflow-scrolling: touch;
 }
 
+/* popup card */
 .popup {
-  background: #1a1a24;
-  border: 2px solid var(--accent);
-  border-radius: 16px;
-  box-shadow: 0 0 20px var(--glow);
-  padding: 1.5rem;
-  text-align: center;
-  max-width: 480px;
-  width: 90%;
   position: relative;
-  animation: riseIn 0.6s ease-out;
+  width: min(94%, 480px);
+  border-radius: 16px;
+  padding: 1.25rem;
+  background: var(--bg-popup);
+  border: 2px solid var(--accent);
+  box-shadow: 0 8px 30px var(--glow), 0 2px 8px rgba(0,0,0,0.35);
+  overflow: visible; /* important so close button is not clipped */
+  animation: riseIn 0.48s cubic-bezier(.2,.9,.2,1);
 }
 
-.popup img {
+/* image */
+.promo-img {
   width: 100%;
+  height: auto;
+  display: block;
   border-radius: 12px;
-  margin-bottom: 1rem;
+  object-fit: cover;
+  z-index: 1;
+  position: relative;
 }
 
-.popup h2 {
-  font-size: 1.3rem;
-  margin: 0 0 1rem 0;
+/* title */
+.popup-title {
+  margin: 0.9rem 0 0;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 600;
   background: linear-gradient(90deg, var(--primary), var(--accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  line-height: 1.15;
 }
 
-.popup button {
+/* actions */
+.actions {
+  margin-top: 0.8rem;
+  display:flex;
+  justify-content:center;
+}
+
+/* CTA styled as a button but it's an <a> so it opens in a new tab */
+.cta {
+  display:inline-block;
+  padding: 0.68rem 1.2rem;
+  border-radius: 10px;
   background: var(--accent);
   color: white;
-  padding: 0.7rem 1.3rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 600;
-  opacity: 0.9;
-  transition: opacity 0.3s ease, transform 0.2s ease;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(88,101,242,0.18);
+  transition: transform .18s ease, box-shadow .18s ease;
 }
-.popup button:hover { opacity: 1; transform: scale(1.05); }
+.cta:active { transform: translateY(1px); }
+.cta:hover { transform: translateY(-3px); box-shadow: 0 14px 40px rgba(88,101,242,0.24); }
 
+/* CLOSE BUTTON - make it unmissable on mobile */
 .close-btn {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  font-size: 1.5rem; /* a bit bigger for mobile */
-  color: #aaa;
+  top: calc(10px + env(safe-area-inset-top));
+  right: calc(10px + env(safe-area-inset-right));
+  z-index: 99999; /* extremely high so it sits above the image */
+  border: none;
+  background: rgba(0,0,0,0.28);
+  color: var(--text-on-popup);
+  padding: 8px;
+  min-width: 36px;
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
   cursor: pointer;
-  z-index: 10; /* make sure it’s above everything */
-  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 18px;
+  line-height: 1;
+  transition: transform .24s ease, background .18s ease, color .18s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.close-btn:hover { transform: rotate(90deg) scale(1.03); background: rgba(0,0,0,0.4); color: #fff; }
+.close-btn:active { transform: scale(0.98); }
+
+/* small screens adjustments */
+@media (max-width: 520px) {
+  .close-btn { top: calc(6px + env(safe-area-inset-top)); right: calc(6px + env(safe-area-inset-right)); font-size: 20px; padding: 10px; min-width: 40px; min-height: 40px; }
+  .popup { padding: 0.9rem; border-radius: 12px; }
+  .popup-title { font-size: 1rem; }
 }
 
-.close-btn:hover {
-  color: white;
-  transform: rotate(90deg); /* spin effect */
-}
-
-@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+/* small entrance animation */
 @keyframes riseIn {
-  from {opacity: 0; transform: translateY(20px);}
-  to {opacity: 1; transform: translateY(0);}
+  from { transform: translateY(12px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
 </style>
