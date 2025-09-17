@@ -60,7 +60,7 @@ function joinClicked() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         username: 'Popup Tracker',
-        content: `🚀 A user clicked "Join Now!" on the popup at ${window.location.href}`
+        content: `A user clicked "Join Now!" on the popup at ${window.location.href}`
       })
     }).catch(err => console.error('Webhook failed', err))
   } catch (e) {
