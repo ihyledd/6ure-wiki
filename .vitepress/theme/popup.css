@@ -82,15 +82,29 @@
   transform: rotate(90deg) scale(1.2);
 }
 
-/* ✅ Safari/iOS only hack */
-@supports (-webkit-touch-callout: none) {
+/* iOS Safari-specific override */
+@supports (-webkit-touch-callout: none) and (not (translate: none)) {
   .popup button {
-    box-shadow: none; /* disable buggy version */
-    -webkit-mask-image: -webkit-radial-gradient(white, black);
-    filter: drop-shadow(0 0 12px var(--glow));
+    position: relative;
+    box-shadow: none; /* disable buggy shadow */
+    z-index: 1;
   }
-  .popup button:hover {
-    filter: drop-shadow(0 0 22px var(--glow));
+
+  .popup button::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: inherit;
+    background: var(--accent);
+    filter: blur(10px);
+    opacity: 0.6;
+    z-index: -1;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+  }
+
+  .popup button:hover::before {
+    filter: blur(16px);
+    opacity: 0.9;
   }
 }
 
