@@ -1,10 +1,7 @@
 export default {
   mounted() {
     // Only show once per session
-    if (!sessionStorage.getItem("popupShown")) {
-      showPopup();
-      sessionStorage.setItem("popupShown", "true");
-    }
+showPopup();
   }
 }
 
