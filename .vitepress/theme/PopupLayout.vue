@@ -76,15 +76,12 @@ function onKeyDown(e) {
 }
 
 onMounted(() => {
-  // session-per-tab: show once per session (tab) only
-  if (!sessionStorage.getItem('popupShown')) {
-    showPopup.value = true
-    sessionStorage.setItem('popupShown', 'true')
-    // lock scrolling while modal is open
-    document.body.style.overflow = 'hidden'
-  }
+  showPopup.value = true
+  // lock scrolling while modal is open
+  document.body.style.overflow = 'hidden'
   document.addEventListener('keydown', onKeyDown)
 })
+
 
 onBeforeUnmount(() => {
   document.removeEventListener('keydown', onKeyDown)
