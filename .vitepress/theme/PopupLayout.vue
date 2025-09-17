@@ -1,3 +1,33 @@
+<template>
+  <div>
+    <DefaultTheme.Layout>
+      <template #layout-top>
+        <transition name="fade">
+          <div v-if="showPopup" class="overlay">
+            <transition name="popup">
+              <div class="popup">
+                <span class="close-btn" @click="closePopup">×</span>
+                <img
+                  src="https://cdn.discordapp.com/banners/1353997037145948212/a178108fa6364bd78c7d1c76eaba8f17.webp?size=1024"
+                  alt="Spade Banner"
+                />
+                <h2>Join Spade Clipping to earn money by editing!</h2>
+                <a
+                  href="https://discord.gg/RXWAVYMbmB"
+                  target="_blank"
+                  class="popup-btn"
+                >
+                  Join Now!
+                </a>
+              </div>
+            </transition>
+          </div>
+        </transition>
+      </template>
+    </DefaultTheme.Layout>
+  </div>
+</template>
+
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import { ref, onMounted } from 'vue'
@@ -5,93 +35,118 @@ import { ref, onMounted } from 'vue'
 const showPopup = ref(false)
 
 onMounted(() => {
-  // Check localStorage to see if popup has been shown before
-  if (!localStorage.getItem('popupShown')) {
+  if (!localStorage.getItem('popupDismissed')) {
     showPopup.value = true
-    localStorage.setItem('popupShown', 'true')
   }
 })
 
 function closePopup() {
   showPopup.value = false
+  localStorage.setItem('popupDismissed', 'true')
 }
 </script>
 
-<template>
-  <DefaultTheme.Layout>
-    <template #layout-bottom>
-      <div v-if="showPopup" class="overlay">
-        <div class="popup">
-          <span class="close-btn" @click="closePopup">✕</span>
-          <img
-            src="https://cdn.discordapp.com/banners/1353997037145948212/a178108fa6364bd78c7d1c76eaba8f17.webp?size=1024"
-            alt="Spade Banner"
-          />
-          <h2>Join Spade Clipping to earn money by editing!</h2>
-          <a href="https://discord.gg/YOUR_INVITE" target="_blank">
-            <button>Join Now!</button>
-          </a>
-        </div>
-      </div>
-    </template>
-  </DefaultTheme.Layout>
-</template>
+<style scoped>
+/* Overlay fade */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.4s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
 
-<style>
+/* Popup zoom-in animation */
+.popup-enter-active {
+  animation: popupIn 0.5s ease forwards;
+}
+.popup-leave-active {
+  animation: popupOut 0.4s ease forwards;
+}
+
+@keyframes popupIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes popupOut {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(0.8); opacity: 0; }
+}
+
+/* Overlay style */
 .overlay {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(14,14,16,0.9);
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4);
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 9999;
+  z-index: 999;
 }
+
+/* Popup box */
 .popup {
-  position: relative;
-  background: #1a1a24;
-  border-radius: 16px;
-  padding: 2rem;
-  text-align: center;
-  max-width: 420px;
-  box-shadow: 0 0 20px #7289da88;
-  animation: riseIn 0.8s ease;
-}
-.popup img {
-  max-width: 100%;
+  background: var(--vp-c-bg, #fff);
+  color: var(--vp-c-text-1, #333);
   border-radius: 12px;
-  margin-bottom: 1rem;
+  padding: 1.5rem;
+  max-width: 480px;
+  width: 90%;
+  position: relative;
+  text-align: center;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  animation: borderGlow 3s linear infinite;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
-.popup h2 {
-  color: #f0f0f0;
-  margin-bottom: 1rem;
+
+@keyframes borderGlow {
+  0% { box-shadow: 0 0 6px var(--vp-c-brand); }
+  50% { box-shadow: 0 0 20px var(--vp-c-brand); }
+  100% { box-shadow: 0 0 6px var(--vp-c-brand); }
 }
-.popup button {
-  padding: 0.6rem 1.2rem;
-  border: none;
+
+.popup img {
+  width: 100%;
   border-radius: 8px;
-  background: #5865f2;
-  color: white;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.3s;
+  margin-bottom: 1rem;
 }
-.popup button:hover {
-  background: #4752c4;
+
+/* Title */
+.popup h2 {
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+  color: var(--vp-c-text-1, #333);
 }
+
+/* Button */
+.popup-btn {
+  display: inline-block;
+  background: var(--vp-c-brand, #3e63dd);
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s, background 0.3s;
+}
+.popup-btn:hover {
+  transform: scale(1.08);
+  background: var(--vp-c-brand-dark, #3451b2);
+}
+
+/* Close button */
 .close-btn {
   position: absolute;
-  top: 12px;
-  right: 16px;
-  font-size: 1.3rem;
+  top: 10px;
+  right: 12px;
+  font-size: 1.5rem;
   cursor: pointer;
-  color: #ccc;
+  color: #888;
+  transition: transform 0.3s, color 0.3s;
 }
-@keyframes riseIn {
-  from {opacity: 0; transform: translateY(20px);}
-  to {opacity: 1; transform: translateY(0);}
+.close-btn:hover {
+  transform: rotate(90deg);
+  color: var(--vp-c-text-1, #000);
 }
 </style>
