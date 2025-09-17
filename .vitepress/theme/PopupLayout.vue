@@ -1,239 +1,146 @@
 <template>
-  <!-- keep the default theme layout -->
   <DefaultTheme.Layout />
 
-  <!-- overlay + popup (rendered as a sibling so it sits on top) -->
-  <transition name="overlay-fade" appear>
-    <div v-if="showPopup" class="overlay" role="dialog" aria-modal="true" aria-label="Promo popup">
-      <transition name="popup-scale" appear>
-        <div class="popup-wrapper" role="document" tabindex="-1" ref="popupWrapper">
-          <div class="popup-inner">
-            <button class="close-btn" @click="closePopup" aria-label="Close popup">✕</button>
-
-            <!-- banner image -->
-            <img
-              class="promo-img"
-              src="https://cdn.discordapp.com/banners/1353997037145948212/a178108fa6364bd78c7d1c76eaba8f17.webp?size=1024"
-              alt="Spade Clipping banner"
-            />
-
-            <h2 class="popup-title">Join Spade Clipping to earn money by editing!</h2>
-
-            <div class="actions">
-              <!-- replace YOUR_INVITE with your actual discord invite -->
-              <a
-                class="popup-btn"
-                href="https://discord.gg/YOUR_INVITE"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Join Now!
-              </a>
-            </div>
-          </div>
-        </div>
-      </transition>
+  <!-- POPUP BANNER -->
+  <div class="overlay" v-if="showPopup">
+    <div class="popup">
+      <span class="close-btn" @click="closePopup">
+        <i class="fas fa-times"></i>
+      </span>
+      <img
+        src="https://cdn.discordapp.com/banners/1353997037145948212/a178108fa6364bd78c7d1c76eaba8f17.webp?size=1024"
+        alt="Spade Banner"
+      />
+      <h2>Join Spade Clipping to earn money by editing!</h2>
+      <a :href="inviteLink" target="_blank" @click.prevent="joinClicked">
+        <button>Join Now!</button>
+      </a>
     </div>
-  </transition>
+  </div>
 </template>
 
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { ref, onMounted } from 'vue'
 
-const showPopup = ref(false)
+// your Discord invite link
+const inviteLink = 'https://discord.gg/RXWAVYMbmB'
+
+// webhook URL (replace with your real webhook!)
+const webhookUrl = 'https://discord.com/api/webhooks/1417826990559461407/Zi0mA3PnzHZpJgRYX2olngFHC-x_v1wX5sCLC_l4CQkl7DigqcYoYyAvxJX_fuZq3DD9'
+
+const showPopup = ref(true)
 
 function closePopup() {
   showPopup.value = false
+  document.body.style.overflow = 'auto'
 }
 
-// allow closing via Escape key
-function onKeyDown(e) {
-  if (e.key === 'Escape') closePopup()
+function joinClicked() {
+  // always close the popup
+  closePopup()
+
+  // send webhook ping
+  fetch(webhookUrl, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      username: 'Popup Tracker',
+      content: `🚀 A user clicked "Join Now!" on the popup at ${window.location.href}`
+    })
+  }).catch(err => console.error('Webhook failed', err))
+
+  // open invite link
+  window.open(inviteLink, '_blank')
 }
 
 onMounted(() => {
-  // show popup on every page load
-  // setting this in onMounted ensures the transition/animations trigger
-  showPopup.value = true
-
-  // listen for Escape
-  document.addEventListener('keydown', onKeyDown)
-})
-
-onBeforeUnmount(() => {
-  document.removeEventListener('keydown', onKeyDown)
+  // check sessionStorage
+  if (!sessionStorage.getItem("popupShown")) {
+    showPopup.value = true
+    document.body.style.overflow = 'hidden'
+    sessionStorage.setItem("popupShown", "true")
+  }
 })
 </script>
 
 <style>
-/* ---------- TRANSITIONS ---------- */
-.overlay-fade-enter-active,
-.overlay-fade-leave-active {
-  transition: opacity 320ms ease;
-}
-.overlay-fade-enter-from,
-.overlay-fade-leave-to {
-  opacity: 0;
-}
-.overlay-fade-enter-to,
-.overlay-fade-leave-from {
-  opacity: 1;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css');
+
+:root {
+  --bg: #0e0e10;
+  --primary: #b3b9fc;
+  --accent: #5865f2;
+  --text: #f0f0f0;
+  --glow: #7289da88;
 }
 
-.popup-scale-enter-active {
-  animation: popupIn 360ms cubic-bezier(.2,.9,.2,1) both;
-}
-.popup-scale-leave-active {
-  animation: popupOut 260ms cubic-bezier(.4,.0,.2,1) both;
-}
-
-@keyframes popupIn {
-  from { transform: translateY(10px) scale(0.96); opacity: 0; }
-  to   { transform: translateY(0) scale(1);     opacity: 1; }
-}
-@keyframes popupOut {
-  from { transform: translateY(0) scale(1);     opacity: 1; }
-  to   { transform: translateY(10px) scale(0.96); opacity: 0; }
-}
-
-/* ---------- OVERLAY ---------- */
 .overlay {
   position: fixed;
-  inset: 0;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 20000;
-  background: rgba(0,0,0,0.45);
-  backdrop-filter: blur(2px);
+  z-index: 999;
+  animation: fadeIn 0.5s ease;
 }
 
-/* ---------- ANIMATED GRADIENT BORDER WRAPPER ---------- */
-/* This wrapper holds the animated gradient border; inner box is the actual popup card */
-.popup-wrapper {
+.popup {
+  background: #1a1a24;
+  border: 2px solid var(--accent);
   border-radius: 16px;
-  padding: 4px; /* thickness of the gradient border */
-  background: linear-gradient(90deg,
-    var(--vp-c-brand, #3e63dd) 0%,
-    #84a0ff 30%,
-    #ff8a66 60%,
-    var(--vp-c-brand, #3e63dd) 100%);
-  background-size: 300% 300%;
-  animation: gradientShift 5.5s linear infinite;
-  box-shadow: 0 8px 30px rgba(62,99,221,0.12), 0 2px 8px rgba(0,0,0,0.25);
-  max-width: 520px;
-  width: min(94%, 520px);
-}
-
-/* inner popup content that matches VitePress default card (light/dark friendly) */
-.popup-inner {
-  border-radius: 12px;
-  background: var(--vp-c-bg, #fff);
-  color: var(--vp-c-text-1, #333);
-  padding: 1.25rem 1.25rem 1.6rem 1.25rem;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  overflow: hidden;
-}
-
-/* gradient motion */
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* glowing pulse for the wrapper (subtle) */
-.popup-wrapper {
-  animation: gradientShift 5.5s linear infinite, wrapperGlow 3.8s ease-in-out infinite;
-}
-@keyframes wrapperGlow {
-  0% { box-shadow: 0 6px 18px rgba(62,99,221,0.06); }
-  50% { box-shadow: 0 10px 40px rgba(62,99,221,0.12); }
-  100% { box-shadow: 0 6px 18px rgba(62,99,221,0.06); }
-}
-
-/* ---------- CONTENT ---------- */
-.promo-img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  display: block;
-  object-fit: cover;
-}
-
-/* title (uses VitePress text var if available) */
-.popup-title {
-  margin: 0;
-  font-size: 1.05rem;
+  box-shadow: 0 0 20px var(--glow);
+  padding: 1.5rem;
   text-align: center;
-  color: var(--vp-c-text-1, #222);
-  line-height: 1.2;
-  font-weight: 600;
+  max-width: 480px;
+  width: 90%;
+  position: relative;
+  animation: riseIn 0.6s ease-out;
 }
 
-/* actions area */
-.actions {
+.popup img {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 4px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
 }
 
-/* primary CTA */
-.popup-btn {
-  display: inline-block;
-  background: var(--vp-c-brand, #3e63dd);
-  color: #fff;
-  padding: 0.65rem 1.2rem;
+.popup h2 {
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.popup button {
+  background: var(--accent);
+  color: white;
+  padding: 0.7rem 1.3rem;
+  border: none;
   border-radius: 8px;
-  font-weight: 700;
-  text-decoration: none;
-  transition: transform 200ms cubic-bezier(.2,.9,.2,1), box-shadow 200ms;
-  will-change: transform;
-  box-shadow: 0 6px 18px rgba(62,99,221,0.18);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.9;
+  transition: opacity 0.3s ease, transform 0.2s ease;
 }
-.popup-btn:hover,
-.popup-btn:focus {
-  transform: translateY(-4px) scale(1.06); /* grows smoothly */
-  box-shadow: 0 14px 34px rgba(62,99,221,0.22);
-  outline: none;
-}
+.popup button:hover { opacity: 1; transform: scale(1.05); }
 
-/* close button (top-right) */
 .close-btn {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  background: transparent;
-  border: none;
-  color: var(--vp-c-text-2, #666);
-  font-size: 1.1rem;
+  top: 10px; right: 12px;
+  font-size: 1.2rem;
+  color: #aaa;
   cursor: pointer;
-  padding: 6px;
-  border-radius: 6px;
-  transition: transform 260ms ease, color 200ms ease;
+  transition: color 0.3s ease;
 }
-.close-btn:hover {
-  transform: rotate(90deg) scale(1.05); /* rotation on hover */
-  color: var(--vp-c-text-1, #111);
-}
+.close-btn:hover { color: white; }
 
-/* accessibility focus */
-.close-btn:focus,
-.popup-btn:focus {
-  box-shadow: 0 0 0 4px rgba(62,99,221,0.12);
-}
-
-/* responsive tweaks */
-@media (max-width: 520px) {
-  .popup-title { font-size: 1rem; }
-  .popup-wrapper { padding: 3px; }
-  .popup-inner { padding: 1rem; }
-  .close-btn { top: 6px; right: 6px; }
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+@keyframes riseIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
 }
 </style>
