@@ -39,6 +39,7 @@
 
 .popup h2 {
   font-size: 1.3rem;
+  font-weight: 600;
   margin: 0 0 1rem 0;
   background: linear-gradient(90deg, var(--primary), var(--accent));
   -webkit-background-clip: text;
