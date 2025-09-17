@@ -130,13 +130,19 @@ onMounted(() => {
 
 .close-btn {
   position: absolute;
-  top: 10px; right: 12px;
-  font-size: 1.2rem;
+  top: 8px;
+  right: 8px;
+  font-size: 1.5rem; /* a bit bigger for mobile */
   color: #aaa;
   cursor: pointer;
-  transition: color 0.3s ease;
+  z-index: 10; /* make sure it’s above everything */
+  transition: color 0.3s ease, transform 0.3s ease;
 }
-.close-btn:hover { color: white; }
+
+.close-btn:hover {
+  color: white;
+  transform: rotate(90deg); /* spin effect */
+}
 
 @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
 @keyframes riseIn {
