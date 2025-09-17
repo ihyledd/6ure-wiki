@@ -3,7 +3,7 @@
   --primary: #b3b9fc;
   --accent: #5865f2;
   --text: #f0f0f0;
-  --glow: #7289da88;
+  --glow: #7289da;
 }
 
 .overlay {
@@ -39,7 +39,7 @@
 
 .popup h2 {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 700; /* bold */
   margin: 0 0 1rem 0;
   background: linear-gradient(90deg, var(--primary), var(--accent));
   -webkit-background-clip: text;
@@ -56,28 +56,31 @@
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
-  opacity: 0.9;
-  transition: opacity 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-  box-shadow: 0 0 15px var(--glow);
+  opacity: 0.95;
+  transition: opacity 0.3s ease, transform 0.2s ease, filter 0.3s ease;
+
+  /* ✅ Glow fix for Safari */
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  filter: drop-shadow(0 0 8px var(--glow));
 }
 .popup button:hover {
   opacity: 1;
   transform: scale(1.05);
-  box-shadow: 0 0 25px var(--glow);
+  filter: drop-shadow(0 0 15px var(--glow));
 }
 
 .close-btn {
   position: absolute;
   top: 10px; right: 12px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #aaa;
   cursor: pointer;
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition: transform 0.4s ease, color 0.3s ease;
   user-select: none;
 }
 .close-btn:hover {
   color: white;
-  transform: rotate(90deg);
+  transform: rotate(90deg) scale(1.2);
 }
 
 /* Animations */
