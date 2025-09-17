@@ -1,8 +1,16 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 
-const showPopup = ref(true)
+const showPopup = ref(false)
+
+onMounted(() => {
+  // Check localStorage to see if popup has been shown before
+  if (!localStorage.getItem('popupShown')) {
+    showPopup.value = true
+    localStorage.setItem('popupShown', 'true')
+  }
+})
 
 function closePopup() {
   showPopup.value = false
