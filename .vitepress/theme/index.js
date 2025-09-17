@@ -1,8 +1,12 @@
-// docs/.vitepress/theme/index.js
-import DefaultTheme from 'vitepress/theme'
-import PopupLayout from './PopupLayout.vue'
+import DefaultTheme from "vitepress/theme";
+import Popup from "./popup.js";
+import "./popup.css";
 
 export default {
   ...DefaultTheme,
-  Layout: PopupLayout
-}
+  enhanceApp({ app }) {
+    if (typeof window !== "undefined") {
+      Popup.mounted();
+    }
+  }
+};
