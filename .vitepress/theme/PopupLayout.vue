@@ -1,3 +1,94 @@
+<template>
+  <!-- keep the site's default layout -->
+  <DefaultTheme.Layout />
+
+  <!-- POPUP (session-per-tab) -->
+  <div
+    class="overlay"
+    v-if="showPopup"
+    @click.self="closePopup"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Promo popup"
+  >
+    <div class="popup" ref="popup" tabindex="-1">
+      <!-- close button is plain text (no FA dependency) so it always renders -->
+      <button class="close-btn" @click="closePopup" aria-label="Close popup">✕</button>
+
+      <img
+        class="promo-img"
+        src="https://cdn.discordapp.com/banners/1353997037145948212/a178108fa6364bd78c7d1c76eaba8f17.webp?size=1024"
+        alt="Spade Banner"
+      />
+
+      <h2 class="popup-title">Join Spade Clipping to earn money by editing!</h2>
+
+      <div class="actions">
+        <a :href="inviteLink" target="_blank" rel="noopener noreferrer" @click.prevent="joinClicked" class="cta">
+          Join Now!
+        </a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import DefaultTheme from 'vitepress/theme'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+
+/* --- CONFIG: replace these with your actual links --- */
+const inviteLink = 'https://discord.gg/RXWAVYMbmB'
+const webhookUrl = 'https://discord.com/api/webhooks/1417826990559461407/Zi0mA3PnzHZpJgRYX2olngFHC-x_v1wX5sCLC_l4CQkl7DigqcYoYyAvxJX_fuZq3DD9'
+/* ---------------------------------------------------- */
+
+const showPopup = ref(false)
+
+function closePopup() {
+  showPopup.value = false
+  // restore scrolling
+  document.body.style.overflow = ''
+}
+
+function joinClicked() {
+  // close first so user isn't blocked
+  closePopup()
+
+  // send webhook ping (best-effort)
+  try {
+    fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        username: 'Popup Tracker',
+        content: `A user clicked "Join Now!" on the popup at ${window.location.href}`
+      })
+    }).catch(err => console.error('Webhook failed', err))
+  } catch (e) {
+    console.error('Webhook error', e)
+  }
+
+  // open invite
+  window.open(inviteLink, '_blank')
+}
+
+function onKeyDown(e) {
+  if (e.key === 'Escape') closePopup()
+}
+
+onMounted(() => {
+  showPopup.value = true
+  // lock scrolling while modal is open
+  document.body.style.overflow = 'hidden'
+  document.addEventListener('keydown', onKeyDown)
+})
+
+
+onBeforeUnmount(() => {
+  document.removeEventListener('keydown', onKeyDown)
+  document.body.style.overflow = ''
+})
+</script>
+
 <style scoped>
 :root{
   --accent: #5865f2;
