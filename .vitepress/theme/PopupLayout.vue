@@ -112,15 +112,17 @@ onBeforeUnmount(() => {
 
 /* popup card */
 .popup {
-  position: relative;
-  width: min(94%, 480px);
+  background: rgba(20, 20, 30, 0.95); /* translucent dark panel */
+  backdrop-filter: blur(12px);        /* frosted glass effect */
+  border: 1px solid var(--accent);
   border-radius: 16px;
-  padding: 1.25rem;
-  background: var(--bg-popup);
-  border: 2px solid var(--accent);
-  box-shadow: 0 8px 30px var(--glow), 0 2px 8px rgba(0,0,0,0.35);
-  overflow: visible; /* important so close button is not clipped */
-  animation: riseIn 0.48s cubic-bezier(.2,.9,.2,1);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  padding: 1.5rem;
+  text-align: center;
+  max-width: 480px;
+  width: 90%;
+  position: relative;
+  animation: riseIn 0.6s ease-out;
 }
 
 /* image */
