@@ -12,7 +12,7 @@ function showPopup() {
   overlay.innerHTML = `
     <div class="popup" onclick="event.stopPropagation()">
       <span class="close-btn" id="popupClose">&times;</span>
-      <img src="https://cdn.discordapp.com/banners/1353997037145948212/a178108fa6364bd78c7d1c76eaba8f17.webp?size=1024" alt="Spade Banner" />
+      <img src="https://media.discordapp.net/attachments/1401060780786454558/1418079143832060034/SPADE_DISCORD_BANNER.png?ex=68ccd09e&is=68cb7f1e&hm=fde75ea76ce463232df1eb3fa4c10ff0ce9d0a7e5167cc84db19bdb8d12a3fd9&=&width=896&height=597" alt="Spade Banner" />
       <h2>Join Spade Clipping to earn money by editing!</h2>
       <a href="https://discord.gg/Wc3Tzs5rTM" target="_blank">
         <button>Join Now!</button>
