@@ -1,9 +1,9 @@
 :root {
   --bg: #0e0e10;
-  --primary: #b3b9fc;
-  --accent: #5865f2;
+  --primary: #fcfcb3;
+  --accent: #be9b09;
   --text: #f0f0f0;
-  --glow: #7289da;
+  --glow: #f2e40e;
 }
 
 .overlay {
