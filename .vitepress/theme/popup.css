@@ -59,6 +59,9 @@
   opacity: 0.95;
   transition: opacity 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
   
+/* Remove glow effect only for iOS Safari */
+  -webkit-appearance: none; 
+  
   /* Default glow (desktop, non-Safari) */
   box-shadow: 0 0 12px var(--glow);
 }
