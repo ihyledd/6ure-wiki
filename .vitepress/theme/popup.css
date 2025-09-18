@@ -29,6 +29,8 @@
   width: 90%;
   animation: riseIn 0.6s ease-out;
   position: relative;
+  /* Add this to prevent the glow from being clipped */
+  overflow: visible; 
 }
 
 .popup img {
@@ -45,6 +47,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: pulse 3s infinite ease-in-out;
+  /* Add this to prepare for animation and prevent rendering glitches */
+  will-change: text-shadow;
 }
 
 .popup button {
@@ -59,11 +63,12 @@
   opacity: 0.95;
   transition: opacity 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
   
-/* Remove glow effect only for iOS Safari */
-  -webkit-appearance: none; 
-  
-  /* Default glow (desktop, non-Safari) */
   box-shadow: 0 0 12px var(--glow);
+
+  /* Add these to force the button onto its own rendering layer */
+  -webkit-appearance: none; 
+  transform: translateZ(0); 
+  will-change: box-shadow, transform;
 }
 .popup button:hover {
   opacity: 1;
