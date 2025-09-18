@@ -85,17 +85,6 @@
   transform: rotate(90deg) scale(1.2);
 }
 
-/* Remove glow effect only for iOS Safari */
-@supports (-webkit-touch-callout: none) and (not (translate: none)) {
-  .popup button {
-    box-shadow: none !important;
-  }
-  .popup button::before {
-    display: none !important;
-  }
-}
-
-
 /* Animations */
 @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
 @keyframes fadeOut { from {opacity: 1;} to {opacity: 0;} }
