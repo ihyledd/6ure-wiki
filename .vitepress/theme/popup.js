@@ -14,7 +14,7 @@ function showPopup() {
       <span class="close-btn" id="popupClose">&times;</span>
       <img src="https://cdn.discordapp.com/banners/1353997037145948212/a178108fa6364bd78c7d1c76eaba8f17.webp?size=1024" alt="Spade Banner" />
       <h2>Join Spade Clipping to earn money by editing!</h2>
-      <a href="https://discord.gg/RXWAVYMbmB" target="_blank">
+      <a href="https://discord.gg/Wc3Tzs5rTM" target="_blank">
         <button>Join Now!</button>
       </a>
     </div>
