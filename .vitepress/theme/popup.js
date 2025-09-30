@@ -1,3 +1,5 @@
+import discordBanner from '/assets/SPADE_DISCORD_BANNER.png'; 
+
 export default {
   mounted() {
     // Only show once per session
@@ -12,7 +14,7 @@ function showPopup() {
   overlay.innerHTML = `
     <div class="popup" onclick="event.stopPropagation()">
       <span class="close-btn" id="popupClose">&times;</span>
-      <img src="assets/SPADE_DISCORD_BANNER.png" alt="Spade Banner" />
+      <img src="${discordBanner}" alt="Spade Banner" />
       <h2>Earn Money by posting edits to Popular Songs!</h2>
       <a href="https://discord.gg/Wc3Tzs5rTM" target="_blank">
         <button>Join Now!</button>
