@@ -22,17 +22,17 @@ Navigate to the [`#・presets`](https://discord.com/channels/1118862694980788276
 Browse through the available presets until you find the one you wish to download.  
 3. **Proceed the Download**  
 Once you have found a preset, click the **`Download`** button.  
-![Alt text](assets/Screenshot%201.png){width=1174px height=300px}  
+![Alt text](assets/Screenshot%201.png)
 4. **Get the Download Link**  
 After clicking the download button, an **ephemeral message** will appear containing your download link. Click **`DOWNLOAD`** to be redirected to the download page.  
-![Alt text](assets/Screenshot%202.png){width=395px height=100px}  
+![Alt text](assets/Screenshot%202.png) 
 5. **Enter the Download Password**  
 On the download page, you will be prompted to enter a password before proceeding. Input the password and click **Sign In**.  
-![Alt text](assets/Screenshot%203.png){width=395px height=100px}
+![Alt text](assets/Screenshot%203.png)
 > If you do not have a password, please refer to the [How to Get Password](#password) section.  
 7. **Complete the Download**  
 Once signed in, your download will begin. Your file is now ready to use.  
-![Alt text](assets/Screenshot%204.png){width=395px height=100px}   
+![Alt text](assets/Screenshot%204.png)
 > If you prefer visual guide, you can watch it here: https://streamable.com/mq1cg4  
 
 ## How to get Password {#password}
