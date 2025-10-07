@@ -22,7 +22,7 @@ Navigate to the [`#・presets`](https://discord.com/channels/1118862694980788276
 Browse through the available presets until you find the one you wish to download.  
 3. **Proceed the Download**  
 Once you have found a preset, click the **`Download`** button.  
-![Alt text](assets/Screenshot%201.png){width=395px height=100px}  
+![Alt text](assets/Screenshot%201.png){width=1174px height=300px}  
 4. **Get the Download Link**  
 After clicking the download button, an **ephemeral message** will appear containing your download link. Click **`DOWNLOAD`** to be redirected to the download page.  
 ![Alt text](assets/Screenshot%202.png){width=395px height=100px}  
