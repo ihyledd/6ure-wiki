@@ -1,3 +1,4 @@
+// css
 :root {
   --bg: #0e0e10;
   --primary: #fcfcb3;
