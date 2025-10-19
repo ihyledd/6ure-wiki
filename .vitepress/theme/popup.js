@@ -1,4 +1,3 @@
-// js
 import discordBanner from '/assets/SPADE_DISCORD_BANNER.png'; 
 
 export default {
