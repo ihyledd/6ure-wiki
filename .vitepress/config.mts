@@ -18,7 +18,7 @@ export default defineConfig({
   // --- All theme settings go inside this object ---
   themeConfig: {
     siteTitle: '6ure™',
-    logo: 'assets/27f3921db1ab7d2900ffab1ed83ca16a.png',
+    logo: 'https://github.com/ihyledd/6ure-wiki/blob/49e7f0356144fbe545ca1e9bbbe4de16ab9b4233/assets/Comp%201%20(0-00-00-00).png',
     lastUpdated: {
       text: 'Last updated',
       formatOptions: {
