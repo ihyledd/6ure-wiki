@@ -12,13 +12,13 @@ export default defineConfig({
   appearance: 'dark',
 
   head: [
-    ['link', { rel: 'icon', href: 'https://i.postimg.cc/W3s5m2Bg/Comp-1-0-00-00-00.png' }]
+    ['link', { rel: 'icon', href: 'https://i.postimg.cc/3Nx3d0Yk/6uree.png' }]
   ],
 
   // --- All theme settings go inside this object ---
   themeConfig: {
     siteTitle: '6ure™',
-    logo: 'https://i.postimg.cc/W3s5m2Bg/Comp-1-0-00-00-00.png',
+    logo: 'https://i.postimg.cc/3Nx3d0Yk/6uree.png',
     lastUpdated: {
       text: 'Last updated',
       formatOptions: {
