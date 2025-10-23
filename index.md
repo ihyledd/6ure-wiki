@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "6ure™"
+  name: "<span class='gradient-text'>6ure™</span>"
 #  text: "The largest leaking community on Discord for editors!"
   image:
     src: https://i.postimg.cc/c4GV98V3/Untitled10-Background-Removed.png
