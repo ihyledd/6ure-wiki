@@ -1,25 +1,23 @@
-/* Soft aura glow behind the hero image */
-.VPHomeHero .image {
-  position: relative;
-  display: inline-block;
+/* target alternative selectors in case your theme uses different names */
+.VPHomeHero .image img,
+.VPHero .image img,
+.VPHome .image img,
+.VPHomeHero img {
+  /* multiple drop-shadows to simulate glow */
+  filter:
+    drop-shadow(0 0 12px rgba(90,99,127,0.55))
+    drop-shadow(0 0 28px rgba(90,99,127,0.35))
+    drop-shadow(0 0 60px rgba(90,99,127,0.25));
+  transition: filter 0.25s ease;
+  /* remove box-shadow if present */
+  box-shadow: none !important;
 }
 
-.VPHomeHero .image::before {
-  content: "";
-  position: absolute;
-  inset: -80px; /* how far the glow spreads */
-  z-index: -1;
-  background: radial-gradient(
-    circle,
-    rgba(90, 99, 127, 0.7) 0%,
-    rgba(90, 99, 127, 0.1) 40%,
-    rgba(90, 99, 127, 0) 70%
-  );
-  filter: blur(60px);
-  border-radius: 50%;
-}
-
-/* Remove drop-shadow to keep it clean */
-.VPHomeHero .image img {
-  box-shadow: none;
+/* stronger on hover (optional) */
+.VPHomeHero .image img:hover,
+.VPHero .image img:hover {
+  filter:
+    drop-shadow(0 0 18px rgba(90,99,127,0.75))
+    drop-shadow(0 0 40px rgba(90,99,127,0.55))
+    drop-shadow(0 0 90px rgba(90,99,127,0.35));
 }
