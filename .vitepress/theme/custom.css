@@ -1,0 +1,15 @@
+/* Glow effect for the hero image */
+.VPHomeHero .image img {
+  box-shadow:
+    0 0 25px #5A637F,
+    0 0 50px #5A637F;
+  border-radius: 20px; /* optional, smooth edges */
+  transition: box-shadow 0.3s ease;
+}
+
+/* Optional: stronger glow on hover */
+.VPHomeHero .image img:hover {
+  box-shadow:
+    0 0 40px #5A637F,
+    0 0 80px #5A637F;
+}
