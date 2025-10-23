@@ -11,13 +11,13 @@ export default defineConfig({
   lang: 'en-GB',
 
   head: [
-    ['link', { rel: 'icon', href: 'https://cdn.discordapp.com/icons/1118862694980788276/27f3921db1ab7d2900ffab1ed83ca16a.png?size=1024' }]
+    ['link', { rel: 'icon', href: 'https://github.com/ihyledd/6ure-wiki/blob/49e7f0356144fbe545ca1e9bbbe4de16ab9b4233/assets/Comp%201%20(0-00-00-00).png' }]
   ],
 
   // --- All theme settings go inside this object ---
   themeConfig: {
     siteTitle: '6ure',
-    logo: 'https://cdn.discordapp.com/icons/1118862694980788276/27f3921db1ab7d2900ffab1ed83ca16a.png?size=1024',
+    logo: 'https://github.com/ihyledd/6ure-wiki/blob/49e7f0356144fbe545ca1e9bbbe4de16ab9b4233/assets/Comp%201%20(0-00-00-00).png',
     nav: [
       { text: 'Home', link: '/' },
     ],
