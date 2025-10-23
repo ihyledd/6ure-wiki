@@ -5,9 +5,9 @@
 .VPHomeHero img {
   /* multiple drop-shadows to simulate glow */
   filter:
-    drop-shadow(0 0 12px rgba(90,99,127,0.55))
-    drop-shadow(0 0 28px rgba(90,99,127,0.35))
-    drop-shadow(0 0 60px rgba(90,99,127,0.25));
+    drop-shadow(0 0 12px rgba(90,99,127,0.75))
+    drop-shadow(0 0 28px rgba(90,99,127,0.55))
+    drop-shadow(0 0 60px rgba(90,99,127,0.45));
   transition: filter 0.25s ease;
   /* remove box-shadow if present */
   box-shadow: none !important;
