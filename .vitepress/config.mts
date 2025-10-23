@@ -18,7 +18,7 @@ export default defineConfig({
   // --- All theme settings go inside this object ---
   themeConfig: {
     siteTitle: '6ure™',
-    logo: 'https://cdn.discordapp.com/icons/1118862694980788276/27f3921db1ab7d2900ffab1ed83ca16a.png?size=1024',
+    logo: 'assets/27f3921db1ab7d2900ffab1ed83ca16a.png',
     lastUpdated: {
       text: 'Last updated',
       formatOptions: {
