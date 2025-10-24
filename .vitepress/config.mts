@@ -11,11 +11,10 @@ export default defineConfig({
   lang: 'en-US',
   appearance: 'dark',
 
-  head: [
-  // Favicon
+head: [
   ['link', { rel: 'icon', href: 'https://i.postimg.cc/c4GV98V3/Untitled10-Background-Removed.png' }],
 
-  // Load Google Analytics 4
+  // Load Google Analytics
   [
     'script',
     { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-C4PV8MQQZK' }
@@ -27,11 +26,19 @@ export default defineConfig({
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-C4PV8MQQZK', {
-        linker: {
-          domains: ['6ureleaks.com', 'wiki.6ureleaks.com']
-        }
-      });
+
+      // Disable automatic page view tracking
+      gtag('config', 'G-C4PV8MQQZK', { send_page_view: false });
+
+      // Only count first page view per session
+      const sessionKey = 'ga_session_tracked';
+      if (!sessionStorage.getItem(sessionKey)) {
+        gtag('event', 'page_view', {
+          page_title: document.title,
+          page_path: window.location.pathname,
+        });
+        sessionStorage.setItem(sessionKey, 'true');
+      }
     `
   ]
 ],
