@@ -12,7 +12,16 @@ export default defineConfig({
   appearance: 'dark',
 
   head: [
-    ['link', { rel: 'icon', href: 'https://i.postimg.cc/c4GV98V3/Untitled10-Background-Removed.png' }]
+    ['link', { rel: 'icon', href: 'https://i.postimg.cc/c4GV98V3/Untitled10-Background-Removed.png' }],
+    [
+      'script',
+      {},
+      `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NB9GK2MR');`
+    ]
   ],
 
   // --- All theme settings go inside this object ---
