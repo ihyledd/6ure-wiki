@@ -12,15 +12,26 @@ export default defineConfig({
   appearance: 'dark',
 
   head: [
-    ['link', { rel: 'icon', href: 'https://i.postimg.cc/c4GV98V3/Untitled10-Background-Removed.png' }],
-    [
+  // Favicon
+  ['link', { rel: 'icon', href: 'https://i.postimg.cc/c4GV98V3/Untitled10-Background-Removed.png' }],
+
+  // Load Google Analytics 4
+  [
+    'script',
+    { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-C4PV8MQQZK' }
+  ],
+  [
     'script',
     {},
     `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-C4PV8MQQZK');
+      gtag('config', 'G-C4PV8MQQZK', {
+        linker: {
+          domains: ['6ureleaks.com', 'wiki.6ureleaks.com']
+        }
+      });
     `
   ]
 ],
