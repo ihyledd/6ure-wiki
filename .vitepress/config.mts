@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/',
   title: "Home",
   description: "The largest leaking community on Discord for editors!",
-  titleTemplate: ':title • 6ure™',
+  titleTemplate: ':title ✦ 6ure™',
   cleanUrls: true,
   lang: 'en-US',
   appearance: 'dark',
