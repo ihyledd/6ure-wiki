@@ -34,3 +34,17 @@ You are welcome to join the server below if you'd like. They offer much broader 
 ### I cannot find what I'm looking for. Can you guys update the page?
 As mentioned earlier on this site, we kindly ask for your patience as we continue to upload resources. The servers listed above offer broader variety of plugins than we currently have. If you can’t find a specific resource here, we recommend checking the server for additional support.  
 Also, if you’re experienced with using and patching software, you can refer to the first section under the “Extras” category for access to Adobe software. However, we strongly suggest using this only as a last option and trying the said server first.
+
+## Downloading Presets
+
+### What does 'Sharing has expired' means?
+The download link has expired, as it is only valid for 20 minutes after clicking the download button. If you require a second download, please click the download button again to generate a new link.  
+
+### What does 'Maximum sharing usage exceeded' means?
+The download link has reached its maximum usage limit. Each link can only be used once, resulting in a single download per link. If you require a second download, kindly click the download button again to generate a new link.   
+
+### What does 'The requested resource does not exist' means?
+In most cases, the token has expired. To resolve this issue, kindly wait a few minutes and obtain a new link. If the problem persists, it is likely that the resource path is incorrect. In such instances, you may need to contact our founder or developer, @ihyledd or @tcmmi.ae, through tickets.  
+
+### What does 'Invalid Credentials' means?
+The password you entered on our website is incorrect. Please verify that you have obtained it from our official website and not from any other source.  
