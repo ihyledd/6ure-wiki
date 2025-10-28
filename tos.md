@@ -39,5 +39,5 @@ These Terms are governed by and construed in accordance with the laws of Malaysi
 ## 8. Contact  
 If you have any questions regarding these Terms, please contact us at:  
 
-📧 contact@6ureleaks.com
+📧 contact@6ureleaks.com  
 🌐 https://wiki.6ureleaks.com/tos  
