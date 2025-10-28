@@ -44,5 +44,5 @@ We may update this Privacy Policy at any time. When we do, we will revise the �
 ## 10. Contact Us  
 If you have any questions or concerns about this Privacy Policy, please contact us at:  
 
-📧 contact@6ureleaks.com
+📧 contact@6ureleaks.com  
 🌐 https://wiki.6ureleaks.com/privacy  
