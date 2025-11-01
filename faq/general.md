@@ -38,7 +38,7 @@ Also, if you’re experienced with using and patching software, you can refer to
 ## Downloading Presets
 
 ### What does 'Sharing has expired' means?
-The download link has expired, as it is only valid for 20 minutes after clicking the download button. If you require a second download, please click the download button again to generate a new link.  
+The download link has expired, as it is only valid for 1 hour after clicking the download button. If you require a second download, please click the download button again to generate a new link.  
 
 ### What does 'Maximum sharing usage exceeded' means?
 The download link has reached its maximum usage limit. Each link can only be used once, resulting in a single download per link. If you require a second download, kindly click the download button again to generate a new link.   
