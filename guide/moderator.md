@@ -6,279 +6,227 @@ lastUpdated: true
 search: false
 ---
 # Moderator's Guide {moderator}
+This guide outlines moderation standards, procedures, and responsibilities.  
+All moderators are expected to **understand and follow this fully**.
 
-## What is the general information about moderation? {#general-information}
+## General Moderation Information {#general-information}
 
-- **Read and understand all server rules** (rough memorization recommended)
-- **Set server notifications** to *"Mentions Only"* (recommended) or *"All Messages"*
-- **Know all server channels** and their purposes
+### Expectations
+- **Read and understand all server rules** (rough memorisation recommended)
+- Set server notifications to **Mentions Only** (recommended) or **All Messages**
+- Be familiar with **all server channels** and their purposes
 
 ### Staff Strikes System
-- Given for improper staff behavior or rule violations
-- 3 strikes = demotion
+- Strikes are given for **improper staff behaviour** or **rule violations**
+- **3 strikes = demotion**
 
 ### Chat Management
-- Direct conversations to appropriate channels
-- **Prevent** spam/flooding with gifs/images in chat channels
+- Redirect conversations to the correct channels
+- Prevent spam or flooding (especially GIFs/images in chat channels)
 
 ### Ticket Support
-- **Respond quickly** to support tickets
-- ONE staff member per ticket only
-- First staff member handles and closes the ticket
+- Respond to tickets **as quickly as possible**
+- **One staff member per ticket**
+- The **first staff member** to respond handles and closes the ticket
 
 ### Moderation Actions
-- Use punishment commands where the incident occurred or in `#・staff-cmd`
-- Always check previous warnings or cases with `!cases @mention`
+- Use punishment commands in the channel where the incident occurred  
+  *(or `#・staff-cmd` if necessary)*
+- Always check previous history using: `!cases @user`
 
 ### General Guidelines
-- Maintain a family-friendly environment
-- Use common sense
+- Maintain a **family-friendly environment**
+- Use **common sense**
 - **Have fun :)**
 
-## What are the procedures for mod? {#punishment}
+## Moderation Procedures {#punishment}
 
-### **Verbal** __Warnings__
+### Verbal Warnings
 
-::: info  
-Trainees! Please look at how current Moderators give verbal warnings and take inspiration from what they're doing and saying. Please don't use AI, it is obvious most of the time.
+::: info
+**Trainees:** Observe how current moderators issue verbal warnings and take inspiration from their approach.
 :::
 
-- **Being Disrespectful:**  
-> Verbal warn, if they continue: 12 hour mute.  
-- **Arguments:**  
-> Send `!fight`, if they continue: 30 minute mute.  
-- **NSFW Conversations:**  
-> Verbal warn.  
-- **Talking in a different Language:**  
-> Verbal warn.
+- **Disrespectful behaviour**  
+→ Verbal warn → 12h mute if continued
 
-### **Normal** __Warnings__
+- **Arguments**  
+→ Send `!fight` → 30m mute if continued
 
-- **Asking for Pirated Content:**  
-> Verbal Warn + `piracy`.  
-- **Sharing Pirated Content:**  
-> Reason: `sendingpiracy`  
-- **Spamming same Message in multiple Channels:**  
-> Reason: `channelspam`.  
-- **Pinging Helpers in non-help Channels:**  
-> Verbal Warn + `outsideping`.  
-- **Mild NSFW:**  
-> Reason: `mildnsfw`.  
-- **Self Promoting outside of [#・edits](https://discord.com/channels/1118862694980788276/1130552243498791012):**  
-> Verbal Warn + `selfpromo`.  
-- **Advertising Payhip in [#・edits](https://discord.com/channels/1118862694980788276/1130552243498791012):**  
-> Verbal Warn + `payhippromo`.  
-- **Requests outside of [#・request](https://discord.com/channels/1118862694980788276/1253224549152198777):**  
-> Verbal Warn + `outsidereq`.  
-- **Posting their ad more than once:**  
-> Reason: `doublead`.  
-- **Rude behavior, harassment or instigating arguments:**  
-> Reason: `toxicity`.    
-- **Leaving tickets empty or failing to respond:**  
-> Reason: `ticket`.  
-- **Ping staff for requests:**  
-> Reason: `requestping`.
+- **NSFW conversations**  
+→ Verbal warn
 
-### **Ki**__cks__  
-***Required Role: Moderator or higher.***  
+- **Speaking in a different language**  
+→ Verbal warn
 
-- **Selling/Buying any kind of Accounts:**  
-> Reason: `accounts`.  
-- **DM Advertising:**  
-> Reason: `dmad`.  
+### Normal Warnings
 
-### **All** __Bans__
-***Required Role: Moderator or higher. Proof Required for ALL bans.***  
+| Offence | Action / Reason |
+|------|------|
+| Asking for pirated content | Verbal warn + `piracy` |
+| Sharing pirated content | `sendingpiracy` |
+| Spamming across channels | `channelspam` |
+| Pinging helpers outside help channels | Verbal warn + `outsideping` |
+| Mild NSFW | `mildnsfw` |
+| Self-promo outside [#・promo](https://discord.com/channels/1118862694980788276/1430412012743037058) | Verbal warn + `selfpromo` |
+| Payhip advertising in edits | Verbal warn + `payhippromo` |
+| Requests outside [#・request](https://discord.com/channels/1118862694980788276/1253224549152198777) | Verbal warn + `outsidereq` |
+| Posting ads more than once | `doublead` |
+| Toxic / rude behaviour | `toxicity` |
+| Empty or ignored tickets | `ticket` |
+| Pinging staff for requests | `requestping` |
 
-- **Scamming in trade:**  
-> Reason: `trade`.  
-- **Scammers:**  
-> Reason: `make your own`.  
-- **Sending Nudity, Gore, etc:**  
-> Reason: `nsfwban`.  
-- **Slurs:**
-> Reason: `hatespeech`.  
-- **Being under the age of 13:**  
-> Reason: `underage`.  
-- **Doxxing:**  
-> Reason: `doxxing`.  
-- **Raiding:**  
-> Reason: `raiding`.  
-- **Using alternate accounts to bypass bans or punishments:**  
-Reason: `alts`.  
-- **Sharing password:**  
-> Reason: `password`.  
-- **Sending phishing links or harmful files:**  
-> Reason: `hacked`.  
-- **Scamming in trades:**  
-> Reason: `tradescam`.  
-- **Disapproving act of leaking:**  
-> Reason: `hypocrisy`.  
-- **Racism:**  
-> Reason: `racism`.  
+### Kicks
+***Required Role: Moderator or higher***
 
-### **Other** / __Info__
+- Selling or buying accounts → `accounts`
+- DM advertising → `dmad`
 
-- Avoid warning new accounts, just redirect them (give them a verbal warn). If they (for example) misuse a channel more than once you can warn them.
-- If you (for whatever reason) need to make your own reason, use `!warn (userid) (reason)`. Do **not** do this without asking other Moderators (or higher) first.
+### Bans
+***Moderator or higher required — proof is mandatory***
 
-> Words that look like `this` are predefined reasons. Learn how to use them here: [`Predefined Reasons`](#what-are-the-predefined-reasons).
-> **Don't** warn **new members** for posting something in the wrong channel. Redirect them instead.
+- Trade scams → `trade` / `tradescam`
+- Sending nudity, gore, etc → `nsfwban`
+- Hate speech or slurs → `hatespeech`
+- Racism → `racism`
+- Under 13 → `underage`
+- Doxxing → `doxxing`
+- Raiding → `raiding`
+- Alt accounts to bypass punishment → `alts`
+- Password sharing → `password`
+- Phishing or harmful files → `hacked`
+- Anti-leak hypocrisy → `hypocrisy` 
+
+### Additional Notes
+- **Do not warn new members** for simple mistakes — redirect them first
+- If behaviour repeats, then issue a warning
+- Custom reasons (`!warn (user id) (reason)`) **require approval from other moderators**
+
+> Words like `this` are predefined reasons  
+> Learn them here: [Predefined Reasons](#what-are-the-predefined-reasons)
 
 **Ban Duration Guide**
-| Type | Duration |
-| ------------- | :----: |
-| **DM Advertising** | 1-Day |
-| **Suicide Encouragement** | 1-Week |
-| **Doxxing** | Permanent |
-| **NSFW Content** | Permanent |
-| **Racism** | Permanent |
-Always check user history with `!cases (user)` before taking action
+ Type | Duration |
+|------|------|
+| DM Advertising | 1 Day |
+| Suicide Encouragement | 1 Week |
+| Doxxing | Permanent |
+| NSFW Content | Permanent |
+| Racism | Permanent |
+Always check history before action: `!cases (user id)`
 
-## What are the Predefined Reasons?
+## Evidence & Proof Requirements {#evidence}
 
-### **How to use** __Predefined Reasons__
+### Evidence Standards
+All moderation actions **must be backed by valid proof**, except verbal redirects.
 
-::: info  
-Predefined Reasons work for **Warns**, **Timeouts**, **Kicks** and **Bans**.
-I will use `!warn` as an example, but it works the same with the other commands.
-:::
+Acceptable Proof:
+-	Message links (preferred)
+-	Screenshots showing username + user ID
+-	Screen recordings
+-	Bot logs (cases, warnings, deletions)
 
-```
-!warn @617249450867425301 selfpromo
-```
-**`!warn [userid] [duration] [predefinedreason]`**
+Unacceptable Proof
+- Cropped screenshots without context
+- Screenshots without usernames or IDs
+- “Trust me” or verbal claims
+- Third-party screenshots without verification
 
-### **Predefined** __Reasons__
-
-> `piracy`  
-> Asking for pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
-
-> `requestping`  
-Please don’t ping staff for requests. Requests are fulfilled based on availability, and upvotes do not guarantee that the request will be leaked.  
-
-> `selfpromo`  
-Self-promotion is only allowed in [・edits](https://discord.com/channels/1118862694980788276/1130552243498791012). Promoting your socials elsewhere is not allowed. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
-
-> `payhippromo`  
-Promoting your payhip elsewhere is not allowed. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
-
-> `outsidereq`  
-Requests are only allowed in our request channels. Posting them elsewhere isn’t allowed. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250). You can create a request here: [・request](https://discord.com/channels/1118862694980788276/1253224549152198777).  
-
-> `doublead`  
-Please don't post your ad more than once. You can find our rules pinned in [・commissions](https://discord.com/channels/1118862694980788276/1310079315227967588).  
-
-> `channelspam`  
-Please refrain from spamming the same message in multiple channels, or you will get kicked. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
-
-> `mildnsfw`  
-Please stop sending NSFW content. Doing this again will result in a permanent ban. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
-
-> `sendingpiracy`  
-Sending pirated content (e.g. cracked software, full movies/shows) is not allowed and goes against Discord’s Terms of Service. If you do this again, you will be banned. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
-
-> `accounts`  
-Selling or Buying accounts is against our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250) and Discord's ToS.  
-
-> `dmad`  
-DM advertising is not allowed. You are banned as a result.  
-
-> `nsfwban`  
-Posting NSFW content in non-age-restricted channels violates Discord’s Terms of Service. You are banned as a result.  
-
-> `hatespeech`  
-Hate speech of any kind is not tolerated and is against Discord’s Terms of Service. You are banned as a result.  
-
-> `trade`  
-Scamming in trades is not tolerated. You are banned as a result. Please read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
-
-> `underage`  
-You are under the age of 13, which violates Discord’s Terms of Service. You can appeal this ban once you are 13 or older.  
-
-> `hacked`  
-Banned for sending phishing links or harmful files. If your account was hacked, please secure it and appeal for an unban.  
-
-> `ticket`  
-Leaving tickets empty or failing to respond wastes staff time. Please only create a ticket if you’re sure about your request. Multiple violations will result in a ban.  
-
-> `password`  
-Sharing password access to our preset files outside of the server is strictly prohibited. You are banned as a result.  
-
-> `toxicity`  
-Excessive rude behavior, harassment, or instigating arguments is not tolerated. Please remain respectful & read our [・rules](https://discord.com/channels/1118862694980788276/1250087429763760250).  
-
-> `alts`  
-Using alternate accounts to bypass bans or punishments is prohibited. You are banned as a result.  
-
-> `impersonation`  
-Pretending to be staff or another member is not tolerated. Please stop or you will be banned.  
-
-> `doxxing`  
-Sharing personal information (doxxing) is strictly prohibited and results in an instant ban.  
-
-> `raiding`  
-Coordinated raids or spamming with others is not allowed. You are banned as a result.  
-
-> `hypocrisy`  
-Using leaks while disapproving of leaking is hypocrisy and results in an immediate ban. This also applies if you defend your friends’ stuff while benefiting from others’ leaks.
-
-> `racism`  
-Racism of any kind is strictly prohibited and violates both our rules and Discord’s Terms of Service. You are banned as a result.  
-
-## What are the responsibilities of a moderator? {#responsibilities}
-
-### **Handling Tickets**
-- Tickets are a primary way for members to seek support. These include:
-  - Claim level & boost perks
-  - Report a member
-  - Questions or concerns
-  - Applying for staff or Partner Manager
-  - Asking to partner
-  - Sponsoring an event or giveaway
-
-- **How to handle tickets:**
-  - **Respond Quickly:** Address tickets as soon as possible.
-  - **One Moderator per Ticket:** Only one staff member should handle each ticket. If you're unable to assist further, transfer the ticket to another staff member using `/transfer` command.
-  - **Professional Tone:** Always respond politely, respectfully, and professionally.
-  - **Closing Tickets:** Close tickets once they are resolved. This includes when the member leaves the ticket empty/no response.
-::: warning
-You are **required** to warn any member that leaves a ticket empty or no follow-up.
-:::
-
-### Deleting Messages
-
-**When to Delete Messages:**
-  - NSFW content
-  - Hate speech
-  - Racist or discriminatory remarks
-  - Spam or self-promotion
-  - Messages in the wrong channels
-
-### Activity Expectations
-
-**Minimum Activity:** 24-hour per week
-
-**Trial Moderator Requirements:**
-  - Be active and engage in the community.
-  - Assist members and moderate channels.
-  - Use at least 5 mod commands appropriately.
+## Predefined Reasons {#what-are-the-predefined-reasons}
   
-### General Responsibilities
+### How to Use
 
-**Core Duties:**
-  - Enforce server rules and guidelines.
-  - Monitor messages and remove rule-breaking content.
-  - Handle user reports, tickets, and conflicts.
-  - Maintain a welcoming and positive community atmosphere.
+::: info
+Predefined reasons work with **Warns, Timeouts, Kicks, and Bans**
+:::
 
-**Key Skills:**
-  - Strong communication skills.
-  - Conflict resolution.
-  - Fair judgment and empathy.
-  - Patience and professionalism.
+Example:  
+```
+!warn 617249450867425301 selfpromo
+```
+Syntax:  
+```
+!warn [user id] [duration] [reason]
+```
 
-## What are the moderation commands? {#moderation-commands}
+### Available Reasons
+
+> **piracy** — Asking for pirated content  
+> **requestping** — Pinging staff for requests  
+> **selfpromo** — Promotion outside edits  
+> **payhippromo** — Payhip advertising  
+> **outsidereq** — Requests outside request channels  
+> **doublead** — Reposting ads  
+> **channelspam** — Cross-channel spam  
+> **mildnsfw** — Mild NSFW content  
+> **sendingpiracy** — Sharing pirated content  
+> **accounts** — Account selling/buying  
+> **dmad** — DM advertising  
+> **nsfwban** — NSFW in non-restricted channels  
+> **hatespeech** — Hate speech  
+> **trade** — Trade scams  
+> **underage** — Under 13  
+> **hacked** — Phishing / malware  
+> **ticket** — Empty or ignored tickets  
+> **password** — Password sharing  
+> **toxicity** — Harassment or instigation  
+> **alts** — Ban evasion  
+> **impersonation** — Impersonating staff  
+> **doxxing** — Personal info leaks  
+> **raiding** — Coordinated raids  
+> **hypocrisy** — Anti-leak hypocrisy  
+> **racism** — Racism of any kind  
+
+## Moderator Responsibilities {#responsibilities}
+
+### Ticket Handling
+Tickets may include:
+- Reports
+- Support questions
+- Staff or partner applications
+- Sponsorships or giveaways
+
+**Rules:**
+- Respond promptly
+- One moderator per ticket
+- Transfer using `/transfer` if needed
+- Close resolved or inactive tickets
+
+::: warning
+You **must warn** members who leave tickets empty or unresponsive.
+:::   
+
+### Message Deletion
+
+Delete messages that include:
+- NSFW content
+- Hate speech
+- Racism or discrimination
+- Spam or self-promotion
+- Wrong-channel messages
+
+### Activity Requirements
+
+- **Minimum:** 24 hours per week
+
+**Trainee must:**
+- Engage actively
+- Help members
+- Use **at least 5 mod commands** properly
+  
+### Core Duties
+- Enforce rules
+- Moderate chats
+- Handle conflicts
+- Maintain a positive environment
+
+**Key Skills**
+- Communication
+- Fair judgement
+- Patience
+- Professionalism
+
+## Moderation Commands {#moderation-commands}
 
   - `!warn @mention/id reason` - Issues a warning to the mentioned user.
   - `!sp @mention/id proof` - Set proof to the most recent case tied to your action. (Attach a file or link/message link)
@@ -291,44 +239,33 @@ You are **required** to warn any member that leaves a ticket empty or no follow-
  
 **Note:** These are examples of the basic commands you'll use for moderation.
 
-## Server Related {#server-related}
+## Server-Specific Information {#server-related}
 
-### Ticket 
+### Tickets
+If no response after **12 hours**, warn and close the ticket.
 
-If you claimed a ticket, please warn the member and close the ticket if no response are given for over 12 hours. This would help the server be less clogged.
+### Duplicate Requests
+Check:
+- [#・duplicates](https://discord.com/channels/1118862694980788276/1395469507014951063)
 
-### Booster Role
+Delete or ignore duplicates as appropriate.
 
-When a user opens a ticket to claim their custom role, please do the following:
-1. **Verify Booster Status**: First, confirm that the member has boosted the server at least **twice** (`2x`). This is a strict requirement.
-2. **Whitelist the Member**: Use the new command to grant them access to the role creation panel. (`/boosterrole whitelist`)
+### Preset Download Issues
+Greyed-out buttons mean the thread is archived.  
+Run:
+`/reopen`
 
-**Command:**
-Using this command on a valid 2x booster will allow them to use `/boosterrole manage`. Please familiarize yourselves with this new procedure.
+### 1-Month Account Whitelist
 
-### Duplicate requests
+**Requirements**
+- Screenshot of TikTok/Instagram/Youtube profile
+- Must be an editing account
+- Screenshot must show **Edit Profile**
 
-Request duplicates can be monitored through: [#・request-log](https://discord.com/channels/1118862694980788276/1395469507014951063). You can simply **Delete** the detected duplicate request, or **Ignore** it (if it made some mistake or other reasons).
+**Verification Steps**
+- Search their username on TikTok/Instagram/Youtube
+- Check post history, followers, authenticity
+- Deny or question suspicious accounts
 
-### Unable to click download button in Presets
-
-If buttons in certain threads in `#・presets` went greyed out, it means the thread is archived. You may run the command `/reopen` to unarchive all archived threads. 
-
-### 1-month old account restriction whitelist
-
-To whitelist a member to bypass the `#・preset` download 1-month old account restriction, follow the steps below to ensure they're legit and not suspicious.
-
-**Requirements to Get Whitelisted**
-- The member **must provide**:
-  -  A screenshot of their TikTok profile.
-  - The account must be an editing account.
-  - Make sure the screenshot clearly shows "**Edit profile**" — this confirms it’s their own account.
-
-If you don’t see "Edit profile", it’s most likely fake.
-
-**How to Check If They're Suspicious**
-- Before approving, do the following:
-  - Search up their TikTok username directly on TikTok.
-  - Check if the account looks real: consistent content, normal follower/following ratio, not freshly made.
-  - If something feels off (no posts, suspicious bio, reused content), ask follow-up questions or deny the request.
-The command: `/leak whitelist`
+Command:
+`/leak whitelist`
