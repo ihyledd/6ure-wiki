@@ -67,7 +67,7 @@ All moderators are expected to **understand and follow this fully**.
 | Sharing pirated content | `sendingpiracy` |
 | Spamming across channels | `channelspam` |
 | Pinging helpers outside help channels | Verbal warn + `outsideping` |
-| Mild NSFW | `mildnsfw` |
+| NSFW | `nsfw` |
 | Self-promo outside [#・promo](https://discord.com/channels/1118862694980788276/1430412012743037058) | Verbal warn + `selfpromo` |
 | Payhip advertising in edits | Verbal warn + `payhippromo` |
 | Requests outside [#・request](https://discord.com/channels/1118862694980788276/1253224549152198777) | Verbal warn + `outsidereq` |
@@ -151,31 +151,7 @@ Syntax:
 
 ### Available Reasons
 
-> **piracy** — Asking for pirated content  
-> **requestping** — Pinging staff for requests  
-> **selfpromo** — Promotion outside edits  
-> **payhippromo** — Payhip advertising  
-> **outsidereq** — Requests outside request channels  
-> **doublead** — Reposting ads  
-> **channelspam** — Cross-channel spam  
-> **mildnsfw** — Mild NSFW content  
-> **sendingpiracy** — Sharing pirated content  
-> **accounts** — Account selling/buying  
-> **dmad** — DM advertising  
-> **nsfwban** — NSFW in non-restricted channels  
-> **hatespeech** — Hate speech  
-> **trade** — Trade scams  
-> **underage** — Under 13  
-> **hacked** — Phishing / malware  
-> **ticket** — Empty or ignored tickets  
-> **password** — Password sharing  
-> **toxicity** — Harassment or instigation  
-> **alts** — Ban evasion  
-> **impersonation** — Impersonating staff  
-> **doxxing** — Personal info leaks  
-> **raiding** — Coordinated raids  
-> **hypocrisy** — Anti-leak hypocrisy  
-> **racism** — Racism of any kind  
+https://wiki.6ureleaks.com/guide/predefined-reasons
 
 ## Moderator Responsibilities {#responsibilities}
 
