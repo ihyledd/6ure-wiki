@@ -21,7 +21,7 @@ Leaving tickets empty or failing to respond wastes staff time. Please only creat
 Please don’t ping staff for requests. Requests are fulfilled based on availability, and upvotes do not guarantee that the request will be leaked.
 
 ### `outsidereq`
-Requests are only allowed in our request channels. Posting them elsewhere isn’t allowed. Please read our <#1250087429763760250>. You can create a request here: <#1253224549152198777>.
+Requests are only allowed in our request channels. Posting them elsewhere isn’t allowed. Please read our <#1250087429763760250>. You can create a request here: https://requests.6ureleaks.com.
 
 ## Promotion & Advertising
 
