@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as s}from"./chunks/framework.S-Qvb3wi.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"assets/test.md","filePath":"assets/test.md","lastUpdated":1754886787000}'),a={name:"assets/test.md"};function r(o,c,n,d,p,_){return s(),e("div")}const f=t(a,[["render",r]]);export{m as __pageData,f as default};
