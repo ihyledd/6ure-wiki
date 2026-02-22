@@ -1,6 +1,10 @@
 ---
 title: Predefined Moderation Reasons
 description: Official predefined moderation reasons used within the server.
+lang: en-US
+outline: deep
+lastUpdated: true
+search: false
 ---
 
 # Predefined Moderation Reasons
